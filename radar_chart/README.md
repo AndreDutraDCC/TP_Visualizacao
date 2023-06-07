@@ -1,0 +1,1 @@
+Visualização do tipo Radar
