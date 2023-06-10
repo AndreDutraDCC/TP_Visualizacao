@@ -1,0 +1,58 @@
+{
+    "cs": [
+        "Czech",
+        "West Slavic"
+    ],
+    "de": [
+        "German",
+        "West Germanic"
+    ],
+    "en": [
+        "English",
+        "West Germanic"
+    ],
+    "es": [
+        "Spanish",
+        "Romance"
+    ],
+    "fa": [
+        "Persian",
+        "Iranian"
+    ],
+    "fr": [
+        "French",
+        "Romance"
+    ],
+    "hi": [
+        "Hindi",
+        "Indic"
+    ],
+    "hu": [
+        "Hungarian",
+        "Uralic"
+    ],
+    "it": [
+        "Italian",
+        "Romance"
+    ],
+    "pt": [
+        "Portuguese",
+        "Romance"
+    ],
+    "ru": [
+        "Russian",
+        "East Slavic"
+    ],
+    "sv": [
+        "Swedish",
+        "North Germanic"
+    ],
+    "tr": [
+        "Turkish",
+        "Turkik"
+    ],
+    "zh": [
+        "Chinese",
+        "Sino-Tibetan"
+    ]
+}
