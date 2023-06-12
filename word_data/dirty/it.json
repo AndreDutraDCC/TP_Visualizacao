@@ -1,170 +1,1485 @@
 {
-    "allupato": "all\u028apato",
-    "ammucchiata": "amm\u028ak\u02d0jata",
-    "anale": "anale",
-    "arrapato": "ar\u027eapato",
-    "arrusa": "ar\u027euza",
-    "arruso": "ar\u027euzo",
-    "assatanato": "assatanato",
-    "bagascia": "ba\u0261a\u0283a",
-    "bagassa": "ba\u0261assa",
-    "bagnarsi": "ba\u0272ars\u026a",
-    "baldracca": "baldrak\u02d0a",
-    "balle": "balle",
-    "battere": "bat\u02d0ere",
-    "battona": "bat\u02d0ona",
-    "belino": "belino",
-    "biga": "bi\u0261a",
-    "bocchinara": "bok\u02d0ina\u027ea",
-    "bocchino": "bok\u02d0ino",
-    "bofilo": "b\u0254filo",
-    "boiata": "boiata",
-    "bordello": "bord\u025bllo",
-    "brinca": "brinka",
-    "bucaiolo": "b\u028akaj\u0254lo",
-    "budi\u00f9lo": "b\u028adjulo",
-    "busone": "b\u028azone",
-    "cacca": "kak\u02d0a",
-    "caciocappella": "kat\u0283okap\u02d0\u025blla",
-    "cadavere": "kadavere",
-    "cagare": "ka\u0261are",
-    "cagata": "ka\u0261ata",
-    "cagna": "ka\u0272\u0272a",
-    "casci": "ka\u0283\u026a",
-    "cazzata": "kats\u02d0ata",
-    "cazzimma": "kats\u02d0imma",
-    "cazzo": "kats\u02d0o",
-    "cazzone": "kats\u02d0one",
-    "cesso": "t\u0283\u025bsso",
-    "checca": "k\u025bk\u02d0a",
-    "chiappa": "kjap\u02d0a",
-    "chiavare": "kjavare",
-    "chiavata": "kjavata",
-    "ciospo": "t\u0283\u0254spo",
-    "ciucciami il cazzo": "t\u0283\u028at\u0283\u02d0am\u026a il kats\u02d0o",
-    "coglione": "ko\u028eone",
-    "coglioni": "ko\u028eon\u026a",
-    "cornuto": "kornuto",
-    "cozza": "k\u0254ts\u02d0a",
-    "culattina": "k\u028alat\u02d0ina",
-    "culattone": "k\u028alat\u02d0one",
-    "culo": "kulo",
-    "ditalino": "ditalino",
-    "fava": "fava",
-    "femminuccia": "femminut\u0283\u02d0a",
-    "fica": "fika",
-    "figa": "fi\u0261a",
-    "figlio di buona donna": "fi\u028eo d\u026a b\u028a\u0254na d\u0254nna",
-    "figlio di puttana": "fi\u028eo d\u026a p\u028at\u02d0ana",
-    "figone": "fi\u0261one",
-    "finocchio": "fin\u0254k\u02d0io",
-    "fottere": "fot\u02d0ere",
-    "fottersi": "fot\u02d0ers\u026a",
-    "fracicone": "frat\u0283ikone",
-    "fregna": "fre\u0272\u0272a",
-    "frocio": "frot\u0283o",
-    "froscio": "fro\u0283o",
-    "goldone": "\u0261oldone",
-    "guardone": "\u0261wardone",
-    "imbecille": "imbet\u0283ille",
-    "incazzarsi": "inkadz\u02d0ars\u026a",
-    "incoglionirsi": "inko\u028eonirs\u026a",
-    "ingoio": "i\u014b\u0261ojo",
-    "leccaculo": "lek\u02d0akulo",
-    "lecchino": "lek\u02d0ino",
-    "lofare": "lofare",
-    "loffa": "l\u0254ffa",
-    "loffare": "loffare",
-    "mannaggia": "mannad\u0292\u02d0a",
-    "merda": "m\u025brda",
-    "merdata": "merdata",
-    "merdoso": "merdozo",
-    "mignotta": "mi\u0272\u0254t\u02d0a",
-    "minchia": "minkia",
-    "minchione": "minkjone",
-    "mona": "m\u0254na",
-    "monta": "monta",
-    "montare": "montare",
-    "mussa": "mussa",
-    "nave scuola": "nave sk\u028a\u0254la",
-    "nerchia": "n\u025brkia",
-    "padulo": "padulo",
-    "palle": "palle",
-    "palloso": "pallozo",
-    "patacca": "patak\u02d0a",
-    "patonza": "patontsa",
-    "pecorina": "pekorina",
-    "pesce": "pe\u0283e",
-    "picio": "pit\u0283o",
-    "pincare": "pinkare",
-    "pinnolone": "pinnolone",
-    "pippa": "pip\u02d0a",
-    "pippone": "pip\u02d0one",
-    "pip\u00ec": "pipi",
-    "pirla": "pirla",
-    "pisciare": "pi\u0283are",
-    "piscio": "pi\u0283o",
-    "pisello": "piz\u025bllo",
-    "pistolotto": "pistol\u0254t\u02d0o",
-    "pomiciare": "pomit\u0283are",
-    "pompa": "pompa",
-    "pompino": "pompino",
-    "porca": "p\u0254rka",
-    "porca madonna": "p\u0254rka mad\u0254nna",
-    "porca miseria": "p\u0254rka miz\u025bria",
-    "porca puttana": "p\u0254rka p\u028at\u02d0ana",
-    "porco": "p\u0254rko",
-    "porco due": "p\u0254rko due",
-    "porco zio": "p\u0254rko dzio",
-    "potta": "p\u0254t\u02d0a",
-    "puppami": "p\u028ap\u02d0am\u026a",
-    "puttana": "p\u028at\u02d0ana",
-    "quaglia": "kwa\u028ea",
-    "recchione": "rek\u02d0jone",
-    "regina": "red\u0292ina",
-    "rincoglionire": "rinko\u028eonire",
-    "rizzarsi": "rits\u02d0ars\u026a",
-    "rompiballe": "rompiballe",
-    "rompipalle": "rompipalle",
-    "ruffiano": "r\u028affjano",
-    "sbattere": "zbat\u02d0ere",
-    "sbattersi": "zbat\u02d0ers\u026a",
-    "sborra": "zb\u0254r\u027ea",
-    "sborrata": "zbor\u027eata",
-    "sborrone": "zbor\u027eone",
-    "sbrodolata": "zbrodolata",
-    "scopare": "skopare",
-    "scopata": "skopata",
-    "scorreggiare": "skor\u027eed\u0292\u02d0are",
-    "sega": "se\u0261a",
-    "slinguare": "zli\u014b\u0261ware",
-    "slinguata": "zli\u014b\u0261wata",
-    "smandrappata": "zmandrap\u02d0ata",
-    "soccia": "s\u0254t\u0283\u02d0a",
-    "socmel": "sokmel",
-    "sorca": "s\u0254rka",
-    "spagnola": "spa\u0272\u0254la",
-    "spompinare": "spompinare",
-    "sticchio": "stik\u02d0io",
-    "stronza": "strontsa",
-    "stronzata": "strontsata",
-    "stronzo": "strontso",
-    "succhiami": "suk\u02d0jam\u026a",
-    "succhione": "s\u028ak\u02d0jone",
-    "sveltina": "zveltina",
-    "sverginare": "zverd\u0292inare",
-    "tarzanello": "tardzan\u025bllo",
-    "terrone": "ter\u027eone",
-    "testa di cazzo": "t\u025bsta d\u026a kats\u02d0o",
-    "tette": "tet\u02d0e",
-    "tirare": "tirare",
-    "topa": "t\u0254pa",
-    "troia": "tr\u0254ia",
-    "trombare": "trombare",
-    "vacca": "vak\u02d0a",
-    "vaffanculo": "vaffanku\u02d0lo",
-    "vangare": "va\u014b\u0261are",
-    "zinne": "dzinne",
-    "zio cantante": "dzio kantante",
-    "zoccola": "dz\u0254k\u02d0ola"
+    "allupato": [
+        "a",
+        "l",
+        "l",
+        "\u028a",
+        "p",
+        "a",
+        "t",
+        "o"
+    ],
+    "ammucchiata": [
+        "a",
+        "m",
+        "m",
+        "\u028a",
+        "k\u02d0",
+        "j",
+        "a",
+        "t",
+        "a"
+    ],
+    "anale": [
+        "a",
+        "n",
+        "a",
+        "l",
+        "e"
+    ],
+    "arrapato": [
+        "a",
+        "r",
+        "\u027e",
+        "a",
+        "p",
+        "a",
+        "t",
+        "o"
+    ],
+    "arrusa": [
+        "a",
+        "r",
+        "\u027e",
+        "u",
+        "z",
+        "a"
+    ],
+    "arruso": [
+        "a",
+        "r",
+        "\u027e",
+        "u",
+        "z",
+        "o"
+    ],
+    "assatanato": [
+        "a",
+        "ss",
+        "a",
+        "t",
+        "a",
+        "n",
+        "a",
+        "t",
+        "o"
+    ],
+    "bagascia": [
+        "b",
+        "a",
+        "\u0261",
+        "a",
+        "\u0283",
+        "a"
+    ],
+    "bagassa": [
+        "b",
+        "a",
+        "\u0261",
+        "a",
+        "ss",
+        "a"
+    ],
+    "bagnarsi": [
+        "b",
+        "a",
+        "\u0272",
+        "a",
+        "r",
+        "s",
+        "\u026a"
+    ],
+    "baldracca": [
+        "b",
+        "a",
+        "l",
+        "d",
+        "r",
+        "a",
+        "k\u02d0",
+        "a"
+    ],
+    "balle": [
+        "b",
+        "a",
+        "l",
+        "l",
+        "e"
+    ],
+    "battere": [
+        "b",
+        "a",
+        "t\u02d0",
+        "e",
+        "r",
+        "e"
+    ],
+    "battona": [
+        "b",
+        "a",
+        "t\u02d0",
+        "o",
+        "n",
+        "a"
+    ],
+    "belino": [
+        "b",
+        "e",
+        "l",
+        "i",
+        "n",
+        "o"
+    ],
+    "biga": [
+        "b",
+        "i",
+        "\u0261",
+        "a"
+    ],
+    "bocchinara": [
+        "b",
+        "o",
+        "k\u02d0",
+        "i",
+        "n",
+        "a",
+        "\u027e",
+        "a"
+    ],
+    "bocchino": [
+        "b",
+        "o",
+        "k\u02d0",
+        "i",
+        "n",
+        "o"
+    ],
+    "bofilo": [
+        "b",
+        "\u0254",
+        "f",
+        "i",
+        "l",
+        "o"
+    ],
+    "boiata": [
+        "b",
+        "o",
+        "i",
+        "a",
+        "t",
+        "a"
+    ],
+    "bordello": [
+        "b",
+        "o",
+        "r",
+        "d",
+        "\u025b",
+        "l",
+        "l",
+        "o"
+    ],
+    "brinca": [
+        "b",
+        "r",
+        "i",
+        "n",
+        "k",
+        "a"
+    ],
+    "bucaiolo": [
+        "b",
+        "\u028a",
+        "k",
+        "a",
+        "j",
+        "\u0254",
+        "l",
+        "o"
+    ],
+    "budi\u00f9lo": [
+        "b",
+        "\u028a",
+        "d",
+        "j",
+        "u",
+        "l",
+        "o"
+    ],
+    "busone": [
+        "b",
+        "\u028a",
+        "z",
+        "o",
+        "n",
+        "e"
+    ],
+    "cacca": [
+        "k",
+        "a",
+        "k\u02d0",
+        "a"
+    ],
+    "caciocappella": [
+        "k",
+        "a",
+        "t\u0283",
+        "o",
+        "k",
+        "a",
+        "p\u02d0",
+        "\u025b",
+        "l",
+        "l",
+        "a"
+    ],
+    "cadavere": [
+        "k",
+        "a",
+        "d",
+        "a",
+        "v",
+        "e",
+        "r",
+        "e"
+    ],
+    "cagare": [
+        "k",
+        "a",
+        "\u0261",
+        "a",
+        "r",
+        "e"
+    ],
+    "cagata": [
+        "k",
+        "a",
+        "\u0261",
+        "a",
+        "t",
+        "a"
+    ],
+    "cagna": [
+        "k",
+        "a",
+        "\u0272",
+        "\u0272",
+        "a"
+    ],
+    "casci": [
+        "k",
+        "a",
+        "\u0283",
+        "\u026a"
+    ],
+    "cazzata": [
+        "k",
+        "a",
+        "ts\u02d0",
+        "a",
+        "t",
+        "a"
+    ],
+    "cazzimma": [
+        "k",
+        "a",
+        "ts\u02d0",
+        "i",
+        "m",
+        "m",
+        "a"
+    ],
+    "cazzo": [
+        "k",
+        "a",
+        "ts\u02d0",
+        "o"
+    ],
+    "cazzone": [
+        "k",
+        "a",
+        "ts\u02d0",
+        "o",
+        "n",
+        "e"
+    ],
+    "cesso": [
+        "t\u0283",
+        "\u025b",
+        "ss",
+        "o"
+    ],
+    "checca": [
+        "k",
+        "\u025b",
+        "k\u02d0",
+        "a"
+    ],
+    "chiappa": [
+        "k",
+        "j",
+        "a",
+        "p\u02d0",
+        "a"
+    ],
+    "chiavare": [
+        "k",
+        "j",
+        "a",
+        "v",
+        "a",
+        "r",
+        "e"
+    ],
+    "chiavata": [
+        "k",
+        "j",
+        "a",
+        "v",
+        "a",
+        "t",
+        "a"
+    ],
+    "ciospo": [
+        "t\u0283",
+        "\u0254",
+        "s",
+        "p",
+        "o"
+    ],
+    "ciucciami il cazzo": [
+        "t\u0283",
+        "\u028a",
+        "t\u0283\u02d0",
+        "a",
+        "m",
+        "\u026a i",
+        "l k",
+        "a",
+        "ts\u02d0",
+        "o"
+    ],
+    "coglione": [
+        "k",
+        "o",
+        "\u028e",
+        "o",
+        "n",
+        "e"
+    ],
+    "coglioni": [
+        "k",
+        "o",
+        "\u028e",
+        "o",
+        "n",
+        "\u026a"
+    ],
+    "cornuto": [
+        "k",
+        "o",
+        "r",
+        "n",
+        "u",
+        "t",
+        "o"
+    ],
+    "cozza": [
+        "k",
+        "\u0254",
+        "ts\u02d0",
+        "a"
+    ],
+    "culattina": [
+        "k",
+        "\u028a",
+        "l",
+        "a",
+        "t\u02d0",
+        "i",
+        "n",
+        "a"
+    ],
+    "culattone": [
+        "k",
+        "\u028a",
+        "l",
+        "a",
+        "t\u02d0",
+        "o",
+        "n",
+        "e"
+    ],
+    "culo": [
+        "k",
+        "u",
+        "l",
+        "o"
+    ],
+    "ditalino": [
+        "d",
+        "i",
+        "t",
+        "a",
+        "l",
+        "i",
+        "n",
+        "o"
+    ],
+    "fava": [
+        "f",
+        "a",
+        "v",
+        "a"
+    ],
+    "femminuccia": [
+        "f",
+        "e",
+        "m",
+        "m",
+        "i",
+        "n",
+        "u",
+        "t\u0283\u02d0",
+        "a"
+    ],
+    "fica": [
+        "f",
+        "i",
+        "k",
+        "a"
+    ],
+    "figa": [
+        "f",
+        "i",
+        "\u0261",
+        "a"
+    ],
+    "figlio di buona donna": [
+        "f",
+        "i",
+        "\u028e",
+        "o d",
+        "\u026a b",
+        "\u028a",
+        "\u0254",
+        "n",
+        "a d",
+        "\u0254",
+        "n",
+        "n",
+        "a"
+    ],
+    "figlio di puttana": [
+        "f",
+        "i",
+        "\u028e",
+        "o d",
+        "\u026a p",
+        "\u028a",
+        "t\u02d0",
+        "a",
+        "n",
+        "a"
+    ],
+    "figone": [
+        "f",
+        "i",
+        "\u0261",
+        "o",
+        "n",
+        "e"
+    ],
+    "finocchio": [
+        "f",
+        "i",
+        "n",
+        "\u0254",
+        "k\u02d0",
+        "i",
+        "o"
+    ],
+    "fottere": [
+        "f",
+        "o",
+        "t\u02d0",
+        "e",
+        "r",
+        "e"
+    ],
+    "fottersi": [
+        "f",
+        "o",
+        "t\u02d0",
+        "e",
+        "r",
+        "s",
+        "\u026a"
+    ],
+    "fracicone": [
+        "f",
+        "r",
+        "a",
+        "t\u0283",
+        "i",
+        "k",
+        "o",
+        "n",
+        "e"
+    ],
+    "fregna": [
+        "f",
+        "r",
+        "e",
+        "\u0272",
+        "\u0272",
+        "a"
+    ],
+    "frocio": [
+        "f",
+        "r",
+        "o",
+        "t\u0283",
+        "o"
+    ],
+    "froscio": [
+        "f",
+        "r",
+        "o",
+        "\u0283",
+        "o"
+    ],
+    "goldone": [
+        "\u0261",
+        "o",
+        "l",
+        "d",
+        "o",
+        "n",
+        "e"
+    ],
+    "guardone": [
+        "\u0261",
+        "w",
+        "a",
+        "r",
+        "d",
+        "o",
+        "n",
+        "e"
+    ],
+    "imbecille": [
+        "i",
+        "m",
+        "b",
+        "e",
+        "t\u0283",
+        "i",
+        "l",
+        "l",
+        "e"
+    ],
+    "incazzarsi": [
+        "i",
+        "n",
+        "k",
+        "a",
+        "dz\u02d0",
+        "a",
+        "r",
+        "s",
+        "\u026a"
+    ],
+    "incoglionirsi": [
+        "i",
+        "n",
+        "k",
+        "o",
+        "\u028e",
+        "o",
+        "n",
+        "i",
+        "r",
+        "s",
+        "\u026a"
+    ],
+    "ingoio": [
+        "i",
+        "\u014b",
+        "\u0261",
+        "o",
+        "j",
+        "o"
+    ],
+    "leccaculo": [
+        "l",
+        "e",
+        "k\u02d0",
+        "a",
+        "k",
+        "u",
+        "l",
+        "o"
+    ],
+    "lecchino": [
+        "l",
+        "e",
+        "k\u02d0",
+        "i",
+        "n",
+        "o"
+    ],
+    "lofare": [
+        "l",
+        "o",
+        "f",
+        "a",
+        "r",
+        "e"
+    ],
+    "loffa": [
+        "l",
+        "\u0254",
+        "f",
+        "f",
+        "a"
+    ],
+    "loffare": [
+        "l",
+        "o",
+        "f",
+        "f",
+        "a",
+        "r",
+        "e"
+    ],
+    "mannaggia": [
+        "m",
+        "a",
+        "n",
+        "n",
+        "a",
+        "d\u0292\u02d0",
+        "a"
+    ],
+    "merda": [
+        "m",
+        "\u025b",
+        "r",
+        "d",
+        "a"
+    ],
+    "merdata": [
+        "m",
+        "e",
+        "r",
+        "d",
+        "a",
+        "t",
+        "a"
+    ],
+    "merdoso": [
+        "m",
+        "e",
+        "r",
+        "d",
+        "o",
+        "z",
+        "o"
+    ],
+    "mignotta": [
+        "m",
+        "i",
+        "\u0272",
+        "\u0254",
+        "t\u02d0",
+        "a"
+    ],
+    "minchia": [
+        "m",
+        "i",
+        "n",
+        "k",
+        "i",
+        "a"
+    ],
+    "minchione": [
+        "m",
+        "i",
+        "n",
+        "k",
+        "j",
+        "o",
+        "n",
+        "e"
+    ],
+    "mona": [
+        "m",
+        "\u0254",
+        "n",
+        "a"
+    ],
+    "monta": [
+        "m",
+        "o",
+        "n",
+        "t",
+        "a"
+    ],
+    "montare": [
+        "m",
+        "o",
+        "n",
+        "t",
+        "a",
+        "r",
+        "e"
+    ],
+    "mussa": [
+        "m",
+        "u",
+        "ss",
+        "a"
+    ],
+    "nave scuola": [
+        "n",
+        "a",
+        "v",
+        "e s",
+        "k",
+        "\u028a",
+        "\u0254",
+        "l",
+        "a"
+    ],
+    "nerchia": [
+        "n",
+        "\u025b",
+        "r",
+        "k",
+        "i",
+        "a"
+    ],
+    "padulo": [
+        "p",
+        "a",
+        "d",
+        "u",
+        "l",
+        "o"
+    ],
+    "palle": [
+        "p",
+        "a",
+        "l",
+        "l",
+        "e"
+    ],
+    "palloso": [
+        "p",
+        "a",
+        "l",
+        "l",
+        "o",
+        "z",
+        "o"
+    ],
+    "patacca": [
+        "p",
+        "a",
+        "t",
+        "a",
+        "k\u02d0",
+        "a"
+    ],
+    "patonza": [
+        "p",
+        "a",
+        "t",
+        "o",
+        "n",
+        "ts",
+        "a"
+    ],
+    "pecorina": [
+        "p",
+        "e",
+        "k",
+        "o",
+        "r",
+        "i",
+        "n",
+        "a"
+    ],
+    "pesce": [
+        "p",
+        "e",
+        "\u0283",
+        "e"
+    ],
+    "picio": [
+        "p",
+        "i",
+        "t\u0283",
+        "o"
+    ],
+    "pincare": [
+        "p",
+        "i",
+        "n",
+        "k",
+        "a",
+        "r",
+        "e"
+    ],
+    "pinnolone": [
+        "p",
+        "i",
+        "n",
+        "n",
+        "o",
+        "l",
+        "o",
+        "n",
+        "e"
+    ],
+    "pippa": [
+        "p",
+        "i",
+        "p\u02d0",
+        "a"
+    ],
+    "pippone": [
+        "p",
+        "i",
+        "p\u02d0",
+        "o",
+        "n",
+        "e"
+    ],
+    "pip\u00ec": [
+        "p",
+        "i",
+        "p",
+        "i"
+    ],
+    "pirla": [
+        "p",
+        "i",
+        "r",
+        "l",
+        "a"
+    ],
+    "pisciare": [
+        "p",
+        "i",
+        "\u0283",
+        "a",
+        "r",
+        "e"
+    ],
+    "piscio": [
+        "p",
+        "i",
+        "\u0283",
+        "o"
+    ],
+    "pisello": [
+        "p",
+        "i",
+        "z",
+        "\u025b",
+        "l",
+        "l",
+        "o"
+    ],
+    "pistolotto": [
+        "p",
+        "i",
+        "s",
+        "t",
+        "o",
+        "l",
+        "\u0254",
+        "t\u02d0",
+        "o"
+    ],
+    "pomiciare": [
+        "p",
+        "o",
+        "m",
+        "i",
+        "t\u0283",
+        "a",
+        "r",
+        "e"
+    ],
+    "pompa": [
+        "p",
+        "o",
+        "m",
+        "p",
+        "a"
+    ],
+    "pompino": [
+        "p",
+        "o",
+        "m",
+        "p",
+        "i",
+        "n",
+        "o"
+    ],
+    "porca": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "a"
+    ],
+    "porca madonna": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "a m",
+        "a",
+        "d",
+        "\u0254",
+        "n",
+        "n",
+        "a"
+    ],
+    "porca miseria": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "a m",
+        "i",
+        "z",
+        "\u025b",
+        "r",
+        "i",
+        "a"
+    ],
+    "porca puttana": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "a p",
+        "\u028a",
+        "t\u02d0",
+        "a",
+        "n",
+        "a"
+    ],
+    "porco": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "o"
+    ],
+    "porco due": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "o d",
+        "u",
+        "e"
+    ],
+    "porco zio": [
+        "p",
+        "\u0254",
+        "r",
+        "k",
+        "o dz",
+        "i",
+        "o"
+    ],
+    "potta": [
+        "p",
+        "\u0254",
+        "t\u02d0",
+        "a"
+    ],
+    "puppami": [
+        "p",
+        "\u028a",
+        "p\u02d0",
+        "a",
+        "m",
+        "\u026a"
+    ],
+    "puttana": [
+        "p",
+        "\u028a",
+        "t\u02d0",
+        "a",
+        "n",
+        "a"
+    ],
+    "quaglia": [
+        "k",
+        "w",
+        "a",
+        "\u028e",
+        "a"
+    ],
+    "recchione": [
+        "",
+        "r",
+        "e",
+        "k\u02d0",
+        "j",
+        "o",
+        "n",
+        "e"
+    ],
+    "regina": [
+        "",
+        "r",
+        "e",
+        "d\u0292",
+        "i",
+        "n",
+        "a"
+    ],
+    "rincoglionire": [
+        "",
+        "r",
+        "i",
+        "n",
+        "k",
+        "o",
+        "\u028e",
+        "o",
+        "n",
+        "i",
+        "r",
+        "e"
+    ],
+    "rizzarsi": [
+        "",
+        "r",
+        "i",
+        "ts\u02d0",
+        "a",
+        "r",
+        "s",
+        "\u026a"
+    ],
+    "rompiballe": [
+        "",
+        "r",
+        "o",
+        "m",
+        "p",
+        "i",
+        "b",
+        "a",
+        "l",
+        "l",
+        "e"
+    ],
+    "rompipalle": [
+        "",
+        "r",
+        "o",
+        "m",
+        "p",
+        "i",
+        "p",
+        "a",
+        "l",
+        "l",
+        "e"
+    ],
+    "ruffiano": [
+        "",
+        "r",
+        "\u028a",
+        "f",
+        "f",
+        "j",
+        "a",
+        "n",
+        "o"
+    ],
+    "sbattere": [
+        "z",
+        "b",
+        "a",
+        "t\u02d0",
+        "e",
+        "r",
+        "e"
+    ],
+    "sbattersi": [
+        "z",
+        "b",
+        "a",
+        "t\u02d0",
+        "e",
+        "r",
+        "s",
+        "\u026a"
+    ],
+    "sborra": [
+        "z",
+        "b",
+        "\u0254",
+        "r",
+        "\u027e",
+        "a"
+    ],
+    "sborrata": [
+        "z",
+        "b",
+        "o",
+        "r",
+        "\u027e",
+        "a",
+        "t",
+        "a"
+    ],
+    "sborrone": [
+        "z",
+        "b",
+        "o",
+        "r",
+        "\u027e",
+        "o",
+        "n",
+        "e"
+    ],
+    "sbrodolata": [
+        "z",
+        "b",
+        "r",
+        "o",
+        "d",
+        "o",
+        "l",
+        "a",
+        "t",
+        "a"
+    ],
+    "scopare": [
+        "s",
+        "k",
+        "o",
+        "p",
+        "a",
+        "r",
+        "e"
+    ],
+    "scopata": [
+        "s",
+        "k",
+        "o",
+        "p",
+        "a",
+        "t",
+        "a"
+    ],
+    "scorreggiare": [
+        "s",
+        "k",
+        "o",
+        "r",
+        "\u027e",
+        "e",
+        "d\u0292\u02d0",
+        "a",
+        "r",
+        "e"
+    ],
+    "sega": [
+        "s",
+        "e",
+        "\u0261",
+        "a"
+    ],
+    "slinguare": [
+        "z",
+        "l",
+        "i",
+        "\u014b",
+        "\u0261",
+        "w",
+        "a",
+        "r",
+        "e"
+    ],
+    "slinguata": [
+        "z",
+        "l",
+        "i",
+        "\u014b",
+        "\u0261",
+        "w",
+        "a",
+        "t",
+        "a"
+    ],
+    "smandrappata": [
+        "z",
+        "m",
+        "a",
+        "n",
+        "d",
+        "r",
+        "a",
+        "p\u02d0",
+        "a",
+        "t",
+        "a"
+    ],
+    "soccia": [
+        "s",
+        "\u0254",
+        "t\u0283\u02d0",
+        "a"
+    ],
+    "socmel": [
+        "s",
+        "o",
+        "k",
+        "m",
+        "e",
+        "l"
+    ],
+    "sorca": [
+        "s",
+        "\u0254",
+        "r",
+        "k",
+        "a"
+    ],
+    "spagnola": [
+        "s",
+        "p",
+        "a",
+        "\u0272",
+        "\u0254",
+        "l",
+        "a"
+    ],
+    "spompinare": [
+        "s",
+        "p",
+        "o",
+        "m",
+        "p",
+        "i",
+        "n",
+        "a",
+        "r",
+        "e"
+    ],
+    "sticchio": [
+        "s",
+        "t",
+        "i",
+        "k\u02d0",
+        "i",
+        "o"
+    ],
+    "stronza": [
+        "s",
+        "t",
+        "r",
+        "o",
+        "n",
+        "ts",
+        "a"
+    ],
+    "stronzata": [
+        "s",
+        "t",
+        "r",
+        "o",
+        "n",
+        "ts",
+        "a",
+        "t",
+        "a"
+    ],
+    "stronzo": [
+        "s",
+        "t",
+        "r",
+        "o",
+        "n",
+        "ts",
+        "o"
+    ],
+    "succhiami": [
+        "s",
+        "u",
+        "k\u02d0",
+        "j",
+        "a",
+        "m",
+        "\u026a"
+    ],
+    "succhione": [
+        "s",
+        "\u028a",
+        "k\u02d0",
+        "j",
+        "o",
+        "n",
+        "e"
+    ],
+    "sveltina": [
+        "z",
+        "v",
+        "e",
+        "l",
+        "t",
+        "i",
+        "n",
+        "a"
+    ],
+    "sverginare": [
+        "z",
+        "v",
+        "e",
+        "r",
+        "d\u0292",
+        "i",
+        "n",
+        "a",
+        "r",
+        "e"
+    ],
+    "tarzanello": [
+        "t",
+        "a",
+        "r",
+        "dz",
+        "a",
+        "n",
+        "\u025b",
+        "l",
+        "l",
+        "o"
+    ],
+    "terrone": [
+        "t",
+        "e",
+        "r",
+        "\u027e",
+        "o",
+        "n",
+        "e"
+    ],
+    "testa di cazzo": [
+        "t",
+        "\u025b",
+        "s",
+        "t",
+        "a d",
+        "\u026a k",
+        "a",
+        "ts\u02d0",
+        "o"
+    ],
+    "tette": [
+        "t",
+        "e",
+        "t\u02d0",
+        "e"
+    ],
+    "tirare": [
+        "t",
+        "i",
+        "r",
+        "a",
+        "r",
+        "e"
+    ],
+    "topa": [
+        "t",
+        "\u0254",
+        "p",
+        "a"
+    ],
+    "troia": [
+        "t",
+        "r",
+        "\u0254",
+        "i",
+        "a"
+    ],
+    "trombare": [
+        "t",
+        "r",
+        "o",
+        "m",
+        "b",
+        "a",
+        "r",
+        "e"
+    ],
+    "vacca": [
+        "v",
+        "a",
+        "k\u02d0",
+        "a"
+    ],
+    "vaffanculo": [
+        "v",
+        "a",
+        "f",
+        "f",
+        "a",
+        "n",
+        "k",
+        "u\u02d0",
+        "l",
+        "o"
+    ],
+    "vangare": [
+        "v",
+        "a",
+        "\u014b",
+        "\u0261",
+        "a",
+        "r",
+        "e"
+    ],
+    "zinne": [
+        "dz",
+        "i",
+        "n",
+        "n",
+        "e"
+    ],
+    "zio cantante": [
+        "dz",
+        "i",
+        "o k",
+        "a",
+        "n",
+        "t",
+        "a",
+        "n",
+        "t",
+        "e"
+    ],
+    "zoccola": [
+        "dz",
+        "\u0254",
+        "k\u02d0",
+        "o",
+        "l",
+        "a"
+    ]
 }

@@ -1,98 +1,775 @@
 {
-    "balfasz": "b\u0251lf\u0251s",
-    "balfaszok": "b\u0251lf\u0251sok",
-    "balfaszokat": "b\u0251lf\u0251sok\u0251t",
-    "balfaszt": "b\u0251lf\u0251st",
-    "barmok": "b\u0251rmok",
-    "barmokat": "b\u0251rmok\u0251t",
-    "barmot": "b\u0251rmot",
-    "barom": "b\u0251rom",
-    "baszik": "b\u0251sik",
-    "bazmeg": "b\u0251zm\u025b\u0261",
-    "buksza": "buks\u0251",
-    "buksz\u00e1k": "buksa\u02d0k",
-    "buksz\u00e1kat": "buksa\u02d0k\u0251t",
-    "buksz\u00e1t": "buksa\u02d0t",
-    "b\u00far": "bu\u02d0r",
-    "b\u00farok": "bu\u02d0rok",
-    "cs\u00f6cs": "t\u0283\u00f8t\u0283",
-    "cs\u00f6cs\u00f6k": "t\u0283\u00f8t\u0283\u00f8k",
-    "cs\u00f6cs\u00f6ket": "t\u0283\u00f8t\u0283\u00f8k\u025bt",
-    "cs\u00f6cs\u00f6t": "t\u0283\u00f8t\u0283\u00f8t",
-    "fasz": "f\u0251s",
-    "faszfej": "f\u0251sf\u025bj",
-    "faszfejek": "f\u0251sf\u025bj\u025bk",
-    "faszfejeket": "f\u0251sf\u025bj\u025bk\u025bt",
-    "faszfejet": "f\u0251sf\u025bj\u025bt",
-    "faszok": "f\u0251sok",
-    "faszokat": "f\u0251sok\u0251t",
-    "faszt": "f\u0251st",
-    "fing": "fin\u0261",
-    "fingok": "fin\u0261ok",
-    "fingokat": "fin\u0261ok\u0251t",
-    "fingot": "fin\u0261ot",
-    "franc": "fr\u0251nts",
-    "francok": "fr\u0251ntsok",
-    "francokat": "fr\u0251ntsok\u0251t",
-    "francot": "fr\u0251ntsot",
-    "geci": "\u0261\u025btsi",
-    "gecibb": "\u0261\u025btsib\u02d0",
-    "gecik": "\u0261\u025btsik",
-    "geciket": "\u0261\u025btsik\u025bt",
-    "gecit": "\u0261\u025btsit",
-    "kibaszott": "kib\u0251sot\u02d0",
-    "kibaszottabb": "kib\u0251sot\u02d0\u0251b\u02d0",
-    "kurafi": "kur\u0251fi",
-    "kurafik": "kur\u0251fik",
-    "kurafikat": "kur\u0251fik\u0251t",
-    "kurafit": "kur\u0251fit",
-    "kurva": "kurv\u0251",
-    "kurv\u00e1k": "kurva\u02d0k",
-    "kurv\u00e1kat": "kurva\u02d0k\u0251t",
-    "kurv\u00e1t": "kurva\u02d0t",
-    "k\u00far": "ku\u02d0r",
-    "leggecibb": "l\u025b\u0261\u02d0\u025btsib\u02d0",
-    "legkibaszottabb": "l\u025bk\u02d0ib\u0251sot\u02d0\u0251b\u02d0",
-    "legszarabb": "l\u025b\u0261s\u0251r\u0251b\u02d0",
-    "marha": "m\u0251rh\u0251",
-    "marh\u00e1k": "m\u0251rha\u02d0k",
-    "marh\u00e1kat": "m\u0251rha\u02d0k\u0251t",
-    "marh\u00e1t": "m\u0251rha\u02d0t",
-    "megd\u00f6glik": "m\u025b\u0261d\u00f8\u0261lik",
-    "pele": "p\u025bl\u025b",
-    "pel\u00e9k": "p\u025ble\u02d0k",
-    "picsa": "pit\u0283\u0251",
-    "pics\u00e1kat": "pit\u0283a\u02d0k\u0251t",
-    "pics\u00e1t": "pit\u0283a\u02d0t",
-    "pina": "pin\u0251",
-    "pin\u00e1k": "pina\u02d0k",
-    "pin\u00e1kat": "pina\u02d0k\u0251t",
-    "pin\u00e1t": "pina\u02d0t",
-    "pofa": "pof\u0251",
-    "pof\u00e1kat": "pofa\u02d0k\u0251t",
-    "pof\u00e1t": "pofa\u02d0t",
-    "punci": "puntsi",
-    "puncik": "puntsik",
-    "p\u00f6cs": "p\u00f8t\u0283",
-    "p\u00f6cs\u00f6k": "p\u00f8t\u0283\u00f8k",
-    "p\u00f6cs\u00f6ket": "p\u00f8t\u0283\u00f8k\u025bt",
-    "p\u00f6cs\u00f6t": "p\u00f8t\u0283\u00f8t",
-    "segg": "\u0283\u025b\u0261\u02d0",
-    "seggek": "\u0283\u025b\u0261\u02d0\u025bk",
-    "seggeket": "\u0283\u025b\u0261\u02d0\u025bk\u025bt",
-    "segget": "\u0283\u025b\u0261\u02d0\u025bt",
-    "seggfej": "\u0283\u025b\u0261f\u025bj",
-    "seggfejek": "\u0283\u025b\u0261f\u025bj\u025bk",
-    "seggfejeket": "\u0283\u025b\u0261f\u025bj\u025bk\u025bt",
-    "seggfejet": "\u0283\u025b\u0261f\u025bj\u025bt",
-    "szajha": "s\u0251jh\u0251",
-    "szajh\u00e1k": "s\u0251jha\u02d0k",
-    "szajh\u00e1kat": "s\u0251jha\u02d0k\u0251t",
-    "szajh\u00e1t": "s\u0251jha\u02d0t",
-    "szar": "s\u0251r",
-    "szarabb": "s\u0251r\u0251b\u02d0",
-    "szarik": "s\u0251rik",
-    "szarok": "s\u0251rok",
-    "szarokat": "s\u0251rok\u0251t",
-    "szart": "s\u0251rt"
+    "balfasz": [
+        "b",
+        "\u0251",
+        "l",
+        "f",
+        "\u0251",
+        "s"
+    ],
+    "balfaszok": [
+        "b",
+        "\u0251",
+        "l",
+        "f",
+        "\u0251",
+        "s",
+        "o",
+        "k"
+    ],
+    "balfaszokat": [
+        "b",
+        "\u0251",
+        "l",
+        "f",
+        "\u0251",
+        "s",
+        "o",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "balfaszt": [
+        "b",
+        "\u0251",
+        "l",
+        "f",
+        "\u0251",
+        "s",
+        "t"
+    ],
+    "barmok": [
+        "b",
+        "\u0251",
+        "r",
+        "m",
+        "o",
+        "k"
+    ],
+    "barmokat": [
+        "b",
+        "\u0251",
+        "r",
+        "m",
+        "o",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "barmot": [
+        "b",
+        "\u0251",
+        "r",
+        "m",
+        "o",
+        "t"
+    ],
+    "barom": [
+        "b",
+        "\u0251",
+        "r",
+        "o",
+        "m"
+    ],
+    "baszik": [
+        "b",
+        "\u0251",
+        "s",
+        "i",
+        "k"
+    ],
+    "bazmeg": [
+        "b",
+        "\u0251",
+        "z",
+        "m",
+        "\u025b",
+        "\u0261"
+    ],
+    "buksza": [
+        "b",
+        "u",
+        "k",
+        "s",
+        "\u0251"
+    ],
+    "buksz\u00e1k": [
+        "b",
+        "u",
+        "k",
+        "s",
+        "a\u02d0",
+        "k"
+    ],
+    "buksz\u00e1kat": [
+        "b",
+        "u",
+        "k",
+        "s",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "buksz\u00e1t": [
+        "b",
+        "u",
+        "k",
+        "s",
+        "a\u02d0",
+        "t"
+    ],
+    "b\u00far": [
+        "b",
+        "u\u02d0",
+        "r"
+    ],
+    "b\u00farok": [
+        "b",
+        "u\u02d0",
+        "r",
+        "o",
+        "k"
+    ],
+    "cs\u00f6cs": [
+        "t\u0283",
+        "\u00f8",
+        "t\u0283"
+    ],
+    "cs\u00f6cs\u00f6k": [
+        "t\u0283",
+        "\u00f8",
+        "t\u0283",
+        "\u00f8",
+        "k"
+    ],
+    "cs\u00f6cs\u00f6ket": [
+        "t\u0283",
+        "\u00f8",
+        "t\u0283",
+        "\u00f8",
+        "k",
+        "\u025b",
+        "t"
+    ],
+    "cs\u00f6cs\u00f6t": [
+        "t\u0283",
+        "\u00f8",
+        "t\u0283",
+        "\u00f8",
+        "t"
+    ],
+    "fasz": [
+        "f",
+        "\u0251",
+        "s"
+    ],
+    "faszfej": [
+        "f",
+        "\u0251",
+        "s",
+        "f",
+        "\u025b",
+        "j"
+    ],
+    "faszfejek": [
+        "f",
+        "\u0251",
+        "s",
+        "f",
+        "\u025b",
+        "j",
+        "\u025b",
+        "k"
+    ],
+    "faszfejeket": [
+        "f",
+        "\u0251",
+        "s",
+        "f",
+        "\u025b",
+        "j",
+        "\u025b",
+        "k",
+        "\u025b",
+        "t"
+    ],
+    "faszfejet": [
+        "f",
+        "\u0251",
+        "s",
+        "f",
+        "\u025b",
+        "j",
+        "\u025b",
+        "t"
+    ],
+    "faszok": [
+        "f",
+        "\u0251",
+        "s",
+        "o",
+        "k"
+    ],
+    "faszokat": [
+        "f",
+        "\u0251",
+        "s",
+        "o",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "faszt": [
+        "f",
+        "\u0251",
+        "s",
+        "t"
+    ],
+    "fing": [
+        "f",
+        "i",
+        "n",
+        "\u0261"
+    ],
+    "fingok": [
+        "f",
+        "i",
+        "n",
+        "\u0261",
+        "o",
+        "k"
+    ],
+    "fingokat": [
+        "f",
+        "i",
+        "n",
+        "\u0261",
+        "o",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "fingot": [
+        "f",
+        "i",
+        "n",
+        "\u0261",
+        "o",
+        "t"
+    ],
+    "franc": [
+        "f",
+        "r",
+        "\u0251",
+        "n",
+        "ts"
+    ],
+    "francok": [
+        "f",
+        "r",
+        "\u0251",
+        "n",
+        "ts",
+        "o",
+        "k"
+    ],
+    "francokat": [
+        "f",
+        "r",
+        "\u0251",
+        "n",
+        "ts",
+        "o",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "francot": [
+        "f",
+        "r",
+        "\u0251",
+        "n",
+        "ts",
+        "o",
+        "t"
+    ],
+    "geci": [
+        "\u0261",
+        "\u025b",
+        "ts",
+        "i"
+    ],
+    "gecibb": [
+        "\u0261",
+        "\u025b",
+        "ts",
+        "i",
+        "b\u02d0"
+    ],
+    "gecik": [
+        "\u0261",
+        "\u025b",
+        "ts",
+        "i",
+        "k"
+    ],
+    "geciket": [
+        "\u0261",
+        "\u025b",
+        "ts",
+        "i",
+        "k",
+        "\u025b",
+        "t"
+    ],
+    "gecit": [
+        "\u0261",
+        "\u025b",
+        "ts",
+        "i",
+        "t"
+    ],
+    "kibaszott": [
+        "k",
+        "i",
+        "b",
+        "\u0251",
+        "s",
+        "o",
+        "t\u02d0"
+    ],
+    "kibaszottabb": [
+        "k",
+        "i",
+        "b",
+        "\u0251",
+        "s",
+        "o",
+        "t\u02d0",
+        "\u0251",
+        "b\u02d0"
+    ],
+    "kurafi": [
+        "k",
+        "u",
+        "r",
+        "\u0251",
+        "f",
+        "i"
+    ],
+    "kurafik": [
+        "k",
+        "u",
+        "r",
+        "\u0251",
+        "f",
+        "i",
+        "k"
+    ],
+    "kurafikat": [
+        "k",
+        "u",
+        "r",
+        "\u0251",
+        "f",
+        "i",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "kurafit": [
+        "k",
+        "u",
+        "r",
+        "\u0251",
+        "f",
+        "i",
+        "t"
+    ],
+    "kurva": [
+        "k",
+        "u",
+        "r",
+        "v",
+        "\u0251"
+    ],
+    "kurv\u00e1k": [
+        "k",
+        "u",
+        "r",
+        "v",
+        "a\u02d0",
+        "k"
+    ],
+    "kurv\u00e1kat": [
+        "k",
+        "u",
+        "r",
+        "v",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "kurv\u00e1t": [
+        "k",
+        "u",
+        "r",
+        "v",
+        "a\u02d0",
+        "t"
+    ],
+    "k\u00far": [
+        "k",
+        "u\u02d0",
+        "r"
+    ],
+    "leggecibb": [
+        "l",
+        "\u025b",
+        "\u0261\u02d0",
+        "\u025b",
+        "ts",
+        "i",
+        "b\u02d0"
+    ],
+    "legkibaszottabb": [
+        "l",
+        "\u025b",
+        "k\u02d0",
+        "i",
+        "b",
+        "\u0251",
+        "s",
+        "o",
+        "t\u02d0",
+        "\u0251",
+        "b\u02d0"
+    ],
+    "legszarabb": [
+        "l",
+        "\u025b",
+        "\u0261",
+        "s",
+        "\u0251",
+        "r",
+        "\u0251",
+        "b\u02d0"
+    ],
+    "marha": [
+        "m",
+        "\u0251",
+        "r",
+        "h",
+        "\u0251"
+    ],
+    "marh\u00e1k": [
+        "m",
+        "\u0251",
+        "r",
+        "h",
+        "a\u02d0",
+        "k"
+    ],
+    "marh\u00e1kat": [
+        "m",
+        "\u0251",
+        "r",
+        "h",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "marh\u00e1t": [
+        "m",
+        "\u0251",
+        "r",
+        "h",
+        "a\u02d0",
+        "t"
+    ],
+    "megd\u00f6glik": [
+        "m",
+        "\u025b",
+        "\u0261",
+        "d",
+        "\u00f8",
+        "\u0261",
+        "l",
+        "i",
+        "k"
+    ],
+    "pele": [
+        "p",
+        "\u025b",
+        "l",
+        "\u025b"
+    ],
+    "pel\u00e9k": [
+        "p",
+        "\u025b",
+        "l",
+        "e\u02d0",
+        "k"
+    ],
+    "picsa": [
+        "p",
+        "i",
+        "t\u0283",
+        "\u0251"
+    ],
+    "pics\u00e1kat": [
+        "p",
+        "i",
+        "t\u0283",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "pics\u00e1t": [
+        "p",
+        "i",
+        "t\u0283",
+        "a\u02d0",
+        "t"
+    ],
+    "pina": [
+        "p",
+        "i",
+        "n",
+        "\u0251"
+    ],
+    "pin\u00e1k": [
+        "p",
+        "i",
+        "n",
+        "a\u02d0",
+        "k"
+    ],
+    "pin\u00e1kat": [
+        "p",
+        "i",
+        "n",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "pin\u00e1t": [
+        "p",
+        "i",
+        "n",
+        "a\u02d0",
+        "t"
+    ],
+    "pofa": [
+        "p",
+        "o",
+        "f",
+        "\u0251"
+    ],
+    "pof\u00e1kat": [
+        "p",
+        "o",
+        "f",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "pof\u00e1t": [
+        "p",
+        "o",
+        "f",
+        "a\u02d0",
+        "t"
+    ],
+    "punci": [
+        "p",
+        "u",
+        "n",
+        "ts",
+        "i"
+    ],
+    "puncik": [
+        "p",
+        "u",
+        "n",
+        "ts",
+        "i",
+        "k"
+    ],
+    "p\u00f6cs": [
+        "p",
+        "\u00f8",
+        "t\u0283"
+    ],
+    "p\u00f6cs\u00f6k": [
+        "p",
+        "\u00f8",
+        "t\u0283",
+        "\u00f8",
+        "k"
+    ],
+    "p\u00f6cs\u00f6ket": [
+        "p",
+        "\u00f8",
+        "t\u0283",
+        "\u00f8",
+        "k",
+        "\u025b",
+        "t"
+    ],
+    "p\u00f6cs\u00f6t": [
+        "p",
+        "\u00f8",
+        "t\u0283",
+        "\u00f8",
+        "t"
+    ],
+    "segg": [
+        "\u0283",
+        "\u025b",
+        "\u0261\u02d0"
+    ],
+    "seggek": [
+        "\u0283",
+        "\u025b",
+        "\u0261\u02d0",
+        "\u025b",
+        "k"
+    ],
+    "seggeket": [
+        "\u0283",
+        "\u025b",
+        "\u0261\u02d0",
+        "\u025b",
+        "k",
+        "\u025b",
+        "t"
+    ],
+    "segget": [
+        "\u0283",
+        "\u025b",
+        "\u0261\u02d0",
+        "\u025b",
+        "t"
+    ],
+    "seggfej": [
+        "\u0283",
+        "\u025b",
+        "\u0261",
+        "f",
+        "\u025b",
+        "j"
+    ],
+    "seggfejek": [
+        "\u0283",
+        "\u025b",
+        "\u0261",
+        "f",
+        "\u025b",
+        "j",
+        "\u025b",
+        "k"
+    ],
+    "seggfejeket": [
+        "\u0283",
+        "\u025b",
+        "\u0261",
+        "f",
+        "\u025b",
+        "j",
+        "\u025b",
+        "k",
+        "\u025b",
+        "t"
+    ],
+    "seggfejet": [
+        "\u0283",
+        "\u025b",
+        "\u0261",
+        "f",
+        "\u025b",
+        "j",
+        "\u025b",
+        "t"
+    ],
+    "szajha": [
+        "s",
+        "\u0251",
+        "j",
+        "h",
+        "\u0251"
+    ],
+    "szajh\u00e1k": [
+        "s",
+        "\u0251",
+        "j",
+        "h",
+        "a\u02d0",
+        "k"
+    ],
+    "szajh\u00e1kat": [
+        "s",
+        "\u0251",
+        "j",
+        "h",
+        "a\u02d0",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "szajh\u00e1t": [
+        "s",
+        "\u0251",
+        "j",
+        "h",
+        "a\u02d0",
+        "t"
+    ],
+    "szar": [
+        "s",
+        "\u0251",
+        "r"
+    ],
+    "szarabb": [
+        "s",
+        "\u0251",
+        "r",
+        "\u0251",
+        "b\u02d0"
+    ],
+    "szarik": [
+        "s",
+        "\u0251",
+        "r",
+        "i",
+        "k"
+    ],
+    "szarok": [
+        "s",
+        "\u0251",
+        "r",
+        "o",
+        "k"
+    ],
+    "szarokat": [
+        "s",
+        "\u0251",
+        "r",
+        "o",
+        "k",
+        "\u0251",
+        "t"
+    ],
+    "szart": [
+        "s",
+        "\u0251",
+        "r",
+        "t"
+    ]
 }

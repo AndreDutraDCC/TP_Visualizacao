@@ -1,43 +1,316 @@
 {
-    "bordel": "bordel",
-    "buzna": "buzna",
-    "chcanky": "xtsa\u014bki",
-    "chuj": "xuj",
-    "debil": "debil",
-    "do pi\u010de": "dopit\u0283e",
-    "do prdele": "dopr\u0329dele",
-    "dr\u0161\u0165ka": "dr\u0329\u0283cka",
-    "dr\u017eka": "dr\u0329\u0283ka",
-    "flundra": "flundra",
-    "hajzl": "hajzl\u0329",
-    "hovno": "hovno",
-    "jebat": "jebat",
-    "kokot": "kokot",
-    "kokotina": "kokocina",
-    "ko\u0148omrd": "ko\u0272omr\u0329t",
-    "kunda": "kunda",
-    "kurva": "kurva",
-    "mamrd": "mamr\u0329t",
-    "mrdat": "mr\u0329dat",
-    "mrdka": "mr\u0329tka",
-    "mrdn\u00edk": "mr\u0329d\u0272i\u02d0k",
-    "oslo\u0161oust": "oslo\u0283o\u028ast",
-    "pizda": "pizda",
-    "pi\u010da": "pit\u0283a",
-    "prcat": "pr\u0329tsat",
-    "prdel": "pr\u0329del",
-    "prdelka": "pr\u0329delka",
-    "p\u00edchat": "pi\u02d0xat",
-    "p\u00ed\u010dus": "pi\u02d0t\u0283us",
-    "sra\u010dka": "srat\u0283ka",
-    "sr\u00e1t": "sra\u02d0t",
-    "vyp\u00ed\u010denec": "vipi\u02d0t\u0283enets",
-    "zkurvit": "skurvit",
-    "zkurvysyn": "skurvisin",
-    "zmrd": "zmr\u0329t",
-    "\u010dum\u011bt": "t\u0283um\u0272et",
-    "\u010dur\u00e1k": "t\u0283ura\u02d0k",
-    "\u0161oustat": "\u0283o\u028astat",
-    "\u0161ulin": "\u0283ulin",
-    "\u017er\u00e1t": "\u0292ra\u02d0t"
+    "bordel": [
+        "b",
+        "o",
+        "r",
+        "d",
+        "e",
+        "l"
+    ],
+    "buzna": [
+        "b",
+        "u",
+        "z",
+        "n",
+        "a"
+    ],
+    "chcanky": [
+        "x",
+        "ts",
+        "a",
+        "\u014b",
+        "k",
+        "i"
+    ],
+    "chuj": [
+        "x",
+        "u",
+        "j"
+    ],
+    "debil": [
+        "d",
+        "e",
+        "b",
+        "i",
+        "l"
+    ],
+    "do pi\u010de": [
+        "d",
+        "o",
+        "p",
+        "i",
+        "t\u0283",
+        "e"
+    ],
+    "do prdele": [
+        "d",
+        "o",
+        "p",
+        "r\u0329",
+        "d",
+        "e",
+        "l",
+        "e"
+    ],
+    "dr\u0161\u0165ka": [
+        "d",
+        "r\u0329",
+        "\u0283",
+        "c",
+        "k",
+        "a"
+    ],
+    "dr\u017eka": [
+        "d",
+        "r\u0329",
+        "\u0283",
+        "k",
+        "a"
+    ],
+    "flundra": [
+        "f",
+        "l",
+        "u",
+        "n",
+        "d",
+        "r",
+        "a"
+    ],
+    "hajzl": [
+        "h",
+        "a",
+        "j",
+        "z",
+        "l\u0329"
+    ],
+    "hovno": [
+        "h",
+        "o",
+        "v",
+        "n",
+        "o"
+    ],
+    "jebat": [
+        "j",
+        "e",
+        "b",
+        "a",
+        "t"
+    ],
+    "kokot": [
+        "k",
+        "o",
+        "k",
+        "o",
+        "t"
+    ],
+    "kokotina": [
+        "k",
+        "o",
+        "k",
+        "o",
+        "c",
+        "i",
+        "n",
+        "a"
+    ],
+    "ko\u0148omrd": [
+        "k",
+        "o",
+        "\u0272",
+        "o",
+        "m",
+        "r\u0329",
+        "t"
+    ],
+    "kunda": [
+        "k",
+        "u",
+        "n",
+        "d",
+        "a"
+    ],
+    "kurva": [
+        "k",
+        "u",
+        "r",
+        "v",
+        "a"
+    ],
+    "mamrd": [
+        "m",
+        "a",
+        "m",
+        "r\u0329",
+        "t"
+    ],
+    "mrdat": [
+        "m",
+        "r\u0329",
+        "d",
+        "a",
+        "t"
+    ],
+    "mrdka": [
+        "m",
+        "r\u0329",
+        "t",
+        "k",
+        "a"
+    ],
+    "mrdn\u00edk": [
+        "m",
+        "r\u0329",
+        "d",
+        "\u0272",
+        "i\u02d0",
+        "k"
+    ],
+    "oslo\u0161oust": [
+        "o",
+        "s",
+        "l",
+        "o",
+        "\u0283",
+        "o\u028a",
+        "s",
+        "t"
+    ],
+    "pizda": [
+        "p",
+        "i",
+        "z",
+        "d",
+        "a"
+    ],
+    "pi\u010da": [
+        "p",
+        "i",
+        "t\u0283",
+        "a"
+    ],
+    "prcat": [
+        "p",
+        "r\u0329",
+        "ts",
+        "a",
+        "t"
+    ],
+    "prdel": [
+        "p",
+        "r\u0329",
+        "d",
+        "e",
+        "l"
+    ],
+    "prdelka": [
+        "p",
+        "r\u0329",
+        "d",
+        "e",
+        "l",
+        "k",
+        "a"
+    ],
+    "p\u00edchat": [
+        "p",
+        "i\u02d0",
+        "x",
+        "a",
+        "t"
+    ],
+    "p\u00ed\u010dus": [
+        "p",
+        "i\u02d0",
+        "t\u0283",
+        "u",
+        "s"
+    ],
+    "sra\u010dka": [
+        "s",
+        "r",
+        "a",
+        "t\u0283",
+        "k",
+        "a"
+    ],
+    "sr\u00e1t": [
+        "s",
+        "r",
+        "a\u02d0",
+        "t"
+    ],
+    "vyp\u00ed\u010denec": [
+        "v",
+        "i",
+        "p",
+        "i\u02d0",
+        "t\u0283",
+        "e",
+        "n",
+        "e",
+        "ts"
+    ],
+    "zkurvit": [
+        "s",
+        "k",
+        "u",
+        "r",
+        "v",
+        "i",
+        "t"
+    ],
+    "zkurvysyn": [
+        "s",
+        "k",
+        "u",
+        "r",
+        "v",
+        "i",
+        "s",
+        "i",
+        "n"
+    ],
+    "zmrd": [
+        "z",
+        "m",
+        "r\u0329",
+        "t"
+    ],
+    "\u010dum\u011bt": [
+        "t\u0283",
+        "u",
+        "m",
+        "\u0272",
+        "e",
+        "t"
+    ],
+    "\u010dur\u00e1k": [
+        "t\u0283",
+        "u",
+        "r",
+        "a\u02d0",
+        "k"
+    ],
+    "\u0161oustat": [
+        "\u0283",
+        "o\u028a",
+        "s",
+        "t",
+        "a",
+        "t"
+    ],
+    "\u0161ulin": [
+        "\u0283",
+        "u",
+        "l",
+        "i",
+        "n"
+    ],
+    "\u017er\u00e1t": [
+        "\u0292",
+        "r",
+        "a\u02d0",
+        "t"
+    ]
 }

@@ -1,68 +1,514 @@
 {
-    "MILF": "m\u026alf",
-    "analritter": "an\u0251\u02d0lr\u026at\u025c",
-    "arsch": "a\u027e\u0283",
-    "arschficker": "a\u027e\u0283f\u026ak\u025c",
-    "arschlecker": "a\u027e\u0283l\u025bk\u025c",
-    "arschloch": "a\u027e\u0283l\u0254x",
-    "bimbo": "b\u026ambo\u02d0",
-    "bonze": "b\u0254nts\u0259",
-    "bratze": "b\u027eats\u0259",
-    "bumsen": "b\u028amz\u0259n",
-    "d\u00f6del": "d\u00f8\u02d0d\u0259l",
-    "fick": "f\u026ak",
-    "ficken": "f\u026ak\u0259n",
-    "flittchen": "fl\u026at\u00e7\u0259n",
-    "fotze": "f\u0254ts\u0259",
-    "fratze": "frats\u0259",
-    "hackfresse": "hakfr\u025bs\u0259",
-    "hure": "hu\u02d0r\u0259",
-    "hurensohn": "hu\u02d0r\u0259nzo\u02d0n",
-    "ische": "\u026a\u0283\u0259",
-    "kackbratze": "kakb\u027eats\u0259",
-    "kacke": "kak\u0259",
-    "kacken": "kak\u0259n",
-    "kackwurst": "kakvu\u02d0\u027est",
-    "kampflesbe": "kampfl\u025bsb\u0259",
-    "kanake": "k\u0251n\u0251\u02d0k\u0259",
-    "kimme": "k\u026am\u0259",
-    "l\u00fcmmel": "lym\u0259l",
-    "morgenlatte": "m\u0254\u027e\u0261\u0259nlat\u0259",
-    "mufti": "m\u028afti\u02d0",
-    "muschi": "m\u028a\u0283i\u02d0",
-    "m\u00f6pse": "m\u0153pz\u0259",
-    "m\u00f6se": "m\u00f8\u02d0z\u0259",
-    "nackt": "nakt",
-    "neger": "ne\u02d0\u0261\u025c",
-    "nigger": "n\u026a\u0261\u025c",
-    "nippel": "n\u026ap\u0259l",
-    "nutte": "n\u028at\u0259",
-    "onanieren": "o\u02d0nani\u02d0r\u0259n",
-    "orgasmus": "\u0254\u027e\u0261asm\u028as",
-    "penis": "pe\u02d0n\u026as",
-    "pimmel": "p\u026am\u0259l",
-    "pimpern": "p\u026amp\u025cn",
-    "pinkeln": "p\u026ank\u0259ln",
-    "pissen": "p\u026as\u0259n",
-    "pisser": "p\u026as\u025c",
-    "popel": "po\u02d0p\u0259l",
-    "poppen": "p\u0254p\u0259n",
-    "porno": "p\u0254\u027eno\u02d0",
-    "reudig": "r\u0254\u00f8d\u026a\u00e7",
-    "rosette": "ro\u02d0z\u025bt\u0259",
-    "schabracke": "\u0283ab\u027eak\u0259",
-    "scheisser": "\u0283a\u026as\u025c",
-    "schei\u00dfe": "\u0283a\u026as\u0259",
-    "schiesser": "\u0283i\u02d0s\u025c",
-    "schlampe": "\u0283lamp\u0259",
-    "schnackeln": "\u0283nak\u0259ln",
-    "schwanzlutscher": "\u0283vantsl\u028at\u0283\u025c",
-    "schwuchtel": "\u0283v\u028axt\u0259l",
-    "tittchen": "t\u026at\u00e7\u0259n",
-    "titten": "t\u026at\u0259n",
-    "vollpfosten": "f\u0254lpf\u0254st\u0259n",
-    "v\u00f6geln": "v\u00f8\u02d0\u0261\u0259ln",
-    "wichse": "v\u026aks\u0259",
-    "wichsen": "v\u026aks\u0259n",
-    "wichser": "v\u026aks\u025c"
+    "MILF": [
+        "m",
+        "\u026a",
+        "l",
+        "f"
+    ],
+    "analritter": [
+        "",
+        "a",
+        "n",
+        "\u0251\u02d0",
+        "l",
+        "r",
+        "\u026a",
+        "t",
+        "\u025c"
+    ],
+    "arsch": [
+        "",
+        "a",
+        "\u027e",
+        "\u0283"
+    ],
+    "arschficker": [
+        "",
+        "a",
+        "\u027e",
+        "\u0283",
+        "f",
+        "\u026a",
+        "k",
+        "\u025c"
+    ],
+    "arschlecker": [
+        "",
+        "a",
+        "\u027e",
+        "\u0283",
+        "l",
+        "\u025b",
+        "k",
+        "\u025c"
+    ],
+    "arschloch": [
+        "",
+        "a",
+        "\u027e",
+        "\u0283",
+        "l",
+        "\u0254",
+        "x"
+    ],
+    "bimbo": [
+        "b",
+        "\u026a",
+        "m",
+        "b",
+        "o\u02d0"
+    ],
+    "bonze": [
+        "b",
+        "\u0254",
+        "n",
+        "ts",
+        "\u0259"
+    ],
+    "bratze": [
+        "b",
+        "\u027e",
+        "a",
+        "ts",
+        "\u0259"
+    ],
+    "bumsen": [
+        "b",
+        "\u028a",
+        "m",
+        "z",
+        "\u0259",
+        "n"
+    ],
+    "d\u00f6del": [
+        "d",
+        "\u00f8\u02d0",
+        "d",
+        "\u0259",
+        "l"
+    ],
+    "fick": [
+        "f",
+        "\u026a",
+        "k"
+    ],
+    "ficken": [
+        "f",
+        "\u026a",
+        "k",
+        "\u0259",
+        "n"
+    ],
+    "flittchen": [
+        "f",
+        "l",
+        "\u026a",
+        "t",
+        "\u00e7",
+        "\u0259",
+        "n"
+    ],
+    "fotze": [
+        "f",
+        "\u0254",
+        "ts",
+        "\u0259"
+    ],
+    "fratze": [
+        "f",
+        "r",
+        "a",
+        "ts",
+        "\u0259"
+    ],
+    "hackfresse": [
+        "h",
+        "a",
+        "k",
+        "f",
+        "r",
+        "\u025b",
+        "s",
+        "\u0259"
+    ],
+    "hure": [
+        "h",
+        "u\u02d0",
+        "r",
+        "\u0259"
+    ],
+    "hurensohn": [
+        "h",
+        "u\u02d0",
+        "r",
+        "\u0259",
+        "n",
+        "z",
+        "o\u02d0",
+        "n"
+    ],
+    "ische": [
+        "",
+        "\u026a",
+        "\u0283",
+        "\u0259"
+    ],
+    "kackbratze": [
+        "k",
+        "a",
+        "k",
+        "b",
+        "\u027e",
+        "a",
+        "ts",
+        "\u0259"
+    ],
+    "kacke": [
+        "k",
+        "a",
+        "k",
+        "\u0259"
+    ],
+    "kacken": [
+        "k",
+        "a",
+        "k",
+        "\u0259",
+        "n"
+    ],
+    "kackwurst": [
+        "k",
+        "a",
+        "k",
+        "v",
+        "u\u02d0",
+        "\u027e",
+        "s",
+        "t"
+    ],
+    "kampflesbe": [
+        "k",
+        "a",
+        "m",
+        "p",
+        "f",
+        "l",
+        "\u025b",
+        "s",
+        "b",
+        "\u0259"
+    ],
+    "kanake": [
+        "k",
+        "\u0251",
+        "n",
+        "\u0251\u02d0",
+        "k",
+        "\u0259"
+    ],
+    "kimme": [
+        "k",
+        "\u026a",
+        "m",
+        "\u0259"
+    ],
+    "l\u00fcmmel": [
+        "l",
+        "y",
+        "m",
+        "\u0259",
+        "l"
+    ],
+    "morgenlatte": [
+        "m",
+        "\u0254",
+        "\u027e",
+        "\u0261",
+        "\u0259",
+        "n",
+        "l",
+        "a",
+        "t",
+        "\u0259"
+    ],
+    "mufti": [
+        "m",
+        "\u028a",
+        "f",
+        "t",
+        "i\u02d0"
+    ],
+    "muschi": [
+        "m",
+        "\u028a",
+        "\u0283",
+        "i\u02d0"
+    ],
+    "m\u00f6pse": [
+        "m",
+        "\u0153",
+        "p",
+        "z",
+        "\u0259"
+    ],
+    "m\u00f6se": [
+        "m",
+        "\u00f8\u02d0",
+        "z",
+        "\u0259"
+    ],
+    "nackt": [
+        "n",
+        "a",
+        "k",
+        "t"
+    ],
+    "neger": [
+        "n",
+        "e\u02d0",
+        "\u0261",
+        "\u025c"
+    ],
+    "nigger": [
+        "n",
+        "\u026a",
+        "\u0261",
+        "\u025c"
+    ],
+    "nippel": [
+        "n",
+        "\u026a",
+        "p",
+        "\u0259",
+        "l"
+    ],
+    "nutte": [
+        "n",
+        "\u028a",
+        "t",
+        "\u0259"
+    ],
+    "onanieren": [
+        "",
+        "o\u02d0",
+        "n",
+        "a",
+        "n",
+        "i\u02d0",
+        "r",
+        "\u0259",
+        "n"
+    ],
+    "orgasmus": [
+        "",
+        "\u0254",
+        "\u027e",
+        "\u0261",
+        "a",
+        "s",
+        "m",
+        "\u028a",
+        "s"
+    ],
+    "penis": [
+        "p",
+        "e\u02d0",
+        "n",
+        "\u026a",
+        "s"
+    ],
+    "pimmel": [
+        "p",
+        "\u026a",
+        "m",
+        "\u0259",
+        "l"
+    ],
+    "pimpern": [
+        "p",
+        "\u026a",
+        "m",
+        "p",
+        "\u025c",
+        "n"
+    ],
+    "pinkeln": [
+        "p",
+        "\u026a",
+        "n",
+        "k",
+        "\u0259",
+        "l",
+        "n"
+    ],
+    "pissen": [
+        "p",
+        "\u026a",
+        "s",
+        "\u0259",
+        "n"
+    ],
+    "pisser": [
+        "p",
+        "\u026a",
+        "s",
+        "\u025c"
+    ],
+    "popel": [
+        "p",
+        "o\u02d0",
+        "p",
+        "\u0259",
+        "l"
+    ],
+    "poppen": [
+        "p",
+        "\u0254",
+        "p",
+        "\u0259",
+        "n"
+    ],
+    "porno": [
+        "p",
+        "\u0254",
+        "\u027e",
+        "n",
+        "o\u02d0"
+    ],
+    "reudig": [
+        "r",
+        "\u0254\u00f8",
+        "d",
+        "\u026a",
+        "\u00e7"
+    ],
+    "rosette": [
+        "r",
+        "o\u02d0",
+        "z",
+        "\u025b",
+        "t",
+        "\u0259"
+    ],
+    "schabracke": [
+        "\u0283",
+        "a",
+        "b",
+        "\u027e",
+        "a",
+        "k",
+        "\u0259"
+    ],
+    "scheisser": [
+        "\u0283",
+        "a\u026a",
+        "s",
+        "\u025c"
+    ],
+    "schei\u00dfe": [
+        "\u0283",
+        "a\u026a",
+        "s",
+        "\u0259"
+    ],
+    "schiesser": [
+        "\u0283",
+        "i\u02d0",
+        "s",
+        "\u025c"
+    ],
+    "schlampe": [
+        "\u0283",
+        "l",
+        "a",
+        "m",
+        "p",
+        "\u0259"
+    ],
+    "schnackeln": [
+        "\u0283",
+        "n",
+        "a",
+        "k",
+        "\u0259",
+        "l",
+        "n"
+    ],
+    "schwanzlutscher": [
+        "\u0283",
+        "v",
+        "a",
+        "n",
+        "ts",
+        "l",
+        "\u028a",
+        "t",
+        "\u0283",
+        "\u025c"
+    ],
+    "schwuchtel": [
+        "\u0283",
+        "v",
+        "\u028a",
+        "x",
+        "t",
+        "\u0259",
+        "l"
+    ],
+    "tittchen": [
+        "t",
+        "\u026a",
+        "t",
+        "\u00e7",
+        "\u0259",
+        "n"
+    ],
+    "titten": [
+        "t",
+        "\u026a",
+        "t",
+        "\u0259",
+        "n"
+    ],
+    "vollpfosten": [
+        "f",
+        "\u0254",
+        "l",
+        "pf",
+        "\u0254",
+        "s",
+        "t",
+        "\u0259",
+        "n"
+    ],
+    "v\u00f6geln": [
+        "v",
+        "\u00f8\u02d0",
+        "\u0261",
+        "\u0259",
+        "l",
+        "n"
+    ],
+    "wichse": [
+        "v",
+        "\u026a",
+        "k",
+        "s",
+        "\u0259"
+    ],
+    "wichsen": [
+        "v",
+        "\u026a",
+        "k",
+        "s",
+        "\u0259",
+        "n"
+    ],
+    "wichser": [
+        "v",
+        "\u026a",
+        "k",
+        "s",
+        "\u025c"
+    ]
 }

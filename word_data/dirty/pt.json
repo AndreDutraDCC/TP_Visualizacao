@@ -1,78 +1,624 @@
 {
-    "aborto": "abo\u027e\u0259t\u028a",
-    "amador": "\u00e6mador",
-    "aranha": "a\u027e\u0250\u0303\u0272\u00e6",
-    "ariano": "a\u027ei\u0250\u0303n\u028a",
-    "balalao": "balala\u028a",
-    "bastardo": "basta\u027e\u0259d\u028a",
-    "bicha": "bi\u0283\u00e6",
-    "biscate": "biskat\u0283y",
-    "bissexual": "biseksua\u028a",
-    "boceta": "boset\u00e6",
-    "boob": "b\u028ab",
-    "bosta": "b\u0254st\u00e6",
-    "braulio de borracha": "bra\u028ali\u028a d\u0292y boxa\u0283\u00e6",
-    "bumbum": "bu\u0303mbu\u0303\u014b",
-    "burro": "bux\u028a",
-    "cabrao": "kabra\u028a",
-    "cacete": "kaset\u0283y",
-    "cagar": "ka\u0261ar",
-    "camisinha": "k\u00e6mizi\u0272\u00e6",
-    "caralho": "ka\u027ealj\u028a",
-    "cerveja": "se\u027e\u0259ve\u0292\u00e6",
-    "chochota": "\u0283o\u0283\u0254t\u00e6",
-    "chupar": "\u0283upar",
-    "clitoris": "klito\u027eis",
-    "coca\u00edna": "kokain\u00e6",
-    "coito": "ko\u026at\u028a",
-    "colhoes": "koljoys",
-    "comer": "komer",
-    "cona": "kon\u00e6",
-    "consolo": "ko\u014bs\u0254l\u028a",
-    "corno": "ko\u027e\u0259n\u028a",
-    "cu": "ku",
-    "dar o rabo": "da\u027e \u028a xab\u028a",
-    "dum raio": "du\u0303\u014b xa\u026a\u028a",
-    "esporra": "esp\u0254x\u00e6",
-    "fecal": "feka\u028a",
-    "filho da puta": "filj\u028a da put\u00e6",
-    "foda": "f\u0254d\u00e6",
-    "foda-se": "fod\u00e6sy",
-    "foder": "foder",
-    "frango assado": "fr\u0250\u0303\u014b\u0261w asad\u028a",
-    "gozar": "\u0261ozar",
-    "grelho": "\u0261r\u025blj\u028a",
-    "hero\u00edna": "e\u027eoin\u00e6",
-    "heterosexual": "ete\u027eozeksua\u028a",
-    "homem gay": "ome\u026a\u014b \u0261e\u026a",
-    "homoer\u00f3tico": "omoe\u027e\u0254t\u0283ik\u028a",
-    "homosexual": "omozeksua\u028a",
-    "inferno": "i\u014bf\u025b\u027e\u0259n\u028a",
-    "lolita": "lolit\u00e6",
-    "l\u00e9sbica": "l\u025bzbik\u00e6",
-    "mama": "m\u0250\u0303m\u00e6",
-    "merda": "m\u025b\u027e\u0259d\u00e6",
-    "paneleiro": "p\u00e6nele\u026a\u027e\u028a",
-    "passar um cheque": "pasa\u027e u\u0303\u014b \u0283\u025bky",
-    "pau": "pa\u028a",
-    "peidar": "pe\u026adar",
-    "pinto": "pi\u014bt\u028a",
-    "porra": "pox\u00e6",
-    "puta": "put\u00e6",
-    "puta que pariu": "put\u00e6 ky pa\u027ei\u028a",
-    "puta que te pariu": "put\u00e6 ky t\u0283y pa\u027ei\u028a",
-    "p\u00eanis": "penis",
-    "queca": "k\u025bk\u00e6",
-    "sacanagem": "sak\u00e6na\u0292e\u026a\u014b",
-    "saco": "sak\u028a",
-    "torneira": "to\u027e\u0259ne\u026a\u027e\u00e6",
-    "transar": "tr\u0250\u0303\u014bzar",
-    "vadia": "vad\u0292i\u00e6",
-    "vai tomar no cu": "va\u026a tomar n\u028a ku",
-    "vai-te foder": "va\u026at\u0283y foder",
-    "veado": "vead\u028a",
-    "vibrador": "vibrador",
-    "xana": "\u0283\u0250\u0303n\u00e6",
-    "xochota": "\u0283o\u0283\u0254t\u00e6",
-    "\u00e2nus": "\u0250\u0303nus"
+    "aborto": [
+        "a",
+        "b",
+        "o",
+        "\u027e",
+        "\u0259",
+        "t",
+        "\u028a"
+    ],
+    "amador": [
+        "\u00e6",
+        "m",
+        "a",
+        "d",
+        "o",
+        "r"
+    ],
+    "aranha": [
+        "a",
+        "\u027e",
+        "\u0250\u0303",
+        "\u0272",
+        "\u00e6"
+    ],
+    "ariano": [
+        "a",
+        "\u027e",
+        "i",
+        "\u0250\u0303",
+        "n",
+        "\u028a"
+    ],
+    "balalao": [
+        "b",
+        "a",
+        "l",
+        "a",
+        "l",
+        "a\u028a"
+    ],
+    "bastardo": [
+        "b",
+        "a",
+        "s",
+        "t",
+        "a",
+        "\u027e",
+        "\u0259",
+        "d",
+        "\u028a"
+    ],
+    "bicha": [
+        "b",
+        "i",
+        "\u0283",
+        "\u00e6"
+    ],
+    "biscate": [
+        "b",
+        "i",
+        "s",
+        "k",
+        "a",
+        "t\u0283",
+        "y"
+    ],
+    "bissexual": [
+        "b",
+        "i",
+        "s",
+        "e",
+        "k",
+        "s",
+        "u",
+        "a\u028a"
+    ],
+    "boceta": [
+        "b",
+        "o",
+        "s",
+        "e",
+        "t",
+        "\u00e6"
+    ],
+    "boob": [
+        "b",
+        "\u028a",
+        "b"
+    ],
+    "bosta": [
+        "b",
+        "\u0254",
+        "s",
+        "t",
+        "\u00e6"
+    ],
+    "braulio de borracha": [
+        "b",
+        "r",
+        "a\u028a",
+        "l",
+        "i\u028a d\u0292",
+        "y b",
+        "o",
+        "x",
+        "a",
+        "\u0283",
+        "\u00e6"
+    ],
+    "bumbum": [
+        "b",
+        "u\u0303",
+        "m",
+        "b",
+        "u\u0303",
+        "\u014b"
+    ],
+    "burro": [
+        "b",
+        "u",
+        "x",
+        "\u028a"
+    ],
+    "cabrao": [
+        "k",
+        "a",
+        "b",
+        "r",
+        "a\u028a"
+    ],
+    "cacete": [
+        "k",
+        "a",
+        "s",
+        "e",
+        "t\u0283",
+        "y"
+    ],
+    "cagar": [
+        "k",
+        "a",
+        "\u0261",
+        "a",
+        "r"
+    ],
+    "camisinha": [
+        "k",
+        "\u00e6",
+        "m",
+        "i",
+        "z",
+        "i",
+        "\u0272",
+        "\u00e6"
+    ],
+    "caralho": [
+        "k",
+        "a",
+        "\u027e",
+        "a",
+        "l",
+        "j",
+        "\u028a"
+    ],
+    "cerveja": [
+        "s",
+        "e",
+        "\u027e",
+        "\u0259",
+        "v",
+        "e",
+        "\u0292",
+        "\u00e6"
+    ],
+    "chochota": [
+        "\u0283",
+        "o",
+        "\u0283",
+        "\u0254",
+        "t",
+        "\u00e6"
+    ],
+    "chupar": [
+        "\u0283",
+        "u",
+        "p",
+        "a",
+        "r"
+    ],
+    "clitoris": [
+        "k",
+        "l",
+        "i",
+        "t",
+        "o",
+        "\u027e",
+        "i",
+        "s"
+    ],
+    "coca\u00edna": [
+        "k",
+        "o",
+        "k",
+        "a",
+        "i",
+        "n",
+        "\u00e6"
+    ],
+    "coito": [
+        "k",
+        "o\u026a",
+        "t",
+        "\u028a"
+    ],
+    "colhoes": [
+        "k",
+        "o",
+        "l",
+        "j",
+        "o",
+        "y",
+        "s"
+    ],
+    "comer": [
+        "k",
+        "o",
+        "m",
+        "e",
+        "r"
+    ],
+    "cona": [
+        "k",
+        "o",
+        "n",
+        "\u00e6"
+    ],
+    "consolo": [
+        "k",
+        "o",
+        "\u014b",
+        "s",
+        "\u0254",
+        "l",
+        "\u028a"
+    ],
+    "corno": [
+        "k",
+        "o",
+        "\u027e",
+        "\u0259",
+        "n",
+        "\u028a"
+    ],
+    "cu": [
+        "k",
+        "u"
+    ],
+    "dar o rabo": [
+        "d",
+        "a",
+        "\u027e \u028a x",
+        "a",
+        "b",
+        "\u028a"
+    ],
+    "dum raio": [
+        "d",
+        "u\u0303",
+        "\u014b x",
+        "a\u026a",
+        "\u028a"
+    ],
+    "esporra": [
+        "e",
+        "s",
+        "p",
+        "\u0254",
+        "x",
+        "\u00e6"
+    ],
+    "fecal": [
+        "f",
+        "e",
+        "k",
+        "a\u028a"
+    ],
+    "filho da puta": [
+        "f",
+        "i",
+        "l",
+        "j",
+        "\u028a d",
+        "a p",
+        "u",
+        "t",
+        "\u00e6"
+    ],
+    "foda": [
+        "f",
+        "\u0254",
+        "d",
+        "\u00e6"
+    ],
+    "foda-se": [
+        "f",
+        "o",
+        "d",
+        "\u00e6",
+        "s",
+        "y"
+    ],
+    "foder": [
+        "f",
+        "o",
+        "d",
+        "e",
+        "r"
+    ],
+    "frango assado": [
+        "f",
+        "r",
+        "\u0250\u0303",
+        "\u014b",
+        "\u0261",
+        "w a",
+        "s",
+        "a",
+        "d",
+        "\u028a"
+    ],
+    "gozar": [
+        "\u0261",
+        "o",
+        "z",
+        "a",
+        "r"
+    ],
+    "grelho": [
+        "\u0261",
+        "r",
+        "\u025b",
+        "l",
+        "j",
+        "\u028a"
+    ],
+    "hero\u00edna": [
+        "e",
+        "\u027e",
+        "o",
+        "i",
+        "n",
+        "\u00e6"
+    ],
+    "heterosexual": [
+        "e",
+        "t",
+        "e",
+        "\u027e",
+        "o",
+        "z",
+        "e",
+        "k",
+        "s",
+        "u",
+        "a\u028a"
+    ],
+    "homem gay": [
+        "o",
+        "m",
+        "e\u026a",
+        "\u014b \u0261",
+        "e\u026a"
+    ],
+    "homoer\u00f3tico": [
+        "o",
+        "m",
+        "o",
+        "e",
+        "\u027e",
+        "\u0254",
+        "t\u0283",
+        "i",
+        "k",
+        "\u028a"
+    ],
+    "homosexual": [
+        "o",
+        "m",
+        "o",
+        "z",
+        "e",
+        "k",
+        "s",
+        "u",
+        "a\u028a"
+    ],
+    "inferno": [
+        "i",
+        "\u014b",
+        "f",
+        "\u025b",
+        "\u027e",
+        "\u0259",
+        "n",
+        "\u028a"
+    ],
+    "lolita": [
+        "l",
+        "o",
+        "l",
+        "i",
+        "t",
+        "\u00e6"
+    ],
+    "l\u00e9sbica": [
+        "l",
+        "\u025b",
+        "z",
+        "b",
+        "i",
+        "k",
+        "\u00e6"
+    ],
+    "mama": [
+        "m",
+        "\u0250\u0303",
+        "m",
+        "\u00e6"
+    ],
+    "merda": [
+        "m",
+        "\u025b",
+        "\u027e",
+        "\u0259",
+        "d",
+        "\u00e6"
+    ],
+    "paneleiro": [
+        "p",
+        "\u00e6",
+        "n",
+        "e",
+        "l",
+        "e\u026a",
+        "\u027e",
+        "\u028a"
+    ],
+    "passar um cheque": [
+        "p",
+        "a",
+        "s",
+        "a",
+        "\u027e u\u0303",
+        "\u014b \u0283",
+        "\u025b",
+        "k",
+        "y"
+    ],
+    "pau": [
+        "p",
+        "a\u028a"
+    ],
+    "peidar": [
+        "p",
+        "e\u026a",
+        "d",
+        "a",
+        "r"
+    ],
+    "pinto": [
+        "p",
+        "i",
+        "\u014b",
+        "t",
+        "\u028a"
+    ],
+    "porra": [
+        "p",
+        "o",
+        "x",
+        "\u00e6"
+    ],
+    "puta": [
+        "p",
+        "u",
+        "t",
+        "\u00e6"
+    ],
+    "puta que pariu": [
+        "p",
+        "u",
+        "t",
+        "\u00e6 k",
+        "y p",
+        "a",
+        "\u027e",
+        "i\u028a"
+    ],
+    "puta que te pariu": [
+        "p",
+        "u",
+        "t",
+        "\u00e6 k",
+        "y t\u0283",
+        "y p",
+        "a",
+        "\u027e",
+        "i\u028a"
+    ],
+    "p\u00eanis": [
+        "p",
+        "e",
+        "n",
+        "i",
+        "s"
+    ],
+    "queca": [
+        "k",
+        "\u025b",
+        "k",
+        "\u00e6"
+    ],
+    "sacanagem": [
+        "s",
+        "a",
+        "k",
+        "\u00e6",
+        "n",
+        "a",
+        "\u0292",
+        "e\u026a",
+        "\u014b"
+    ],
+    "saco": [
+        "s",
+        "a",
+        "k",
+        "\u028a"
+    ],
+    "torneira": [
+        "t",
+        "o",
+        "\u027e",
+        "\u0259",
+        "n",
+        "e\u026a",
+        "\u027e",
+        "\u00e6"
+    ],
+    "transar": [
+        "t",
+        "r",
+        "\u0250\u0303",
+        "\u014b",
+        "z",
+        "a",
+        "r"
+    ],
+    "vadia": [
+        "v",
+        "a",
+        "d\u0292",
+        "i",
+        "\u00e6"
+    ],
+    "vai tomar no cu": [
+        "v",
+        "a\u026a t",
+        "o",
+        "m",
+        "a",
+        "r n",
+        "\u028a k",
+        "u"
+    ],
+    "vai-te foder": [
+        "v",
+        "a\u026a",
+        "t\u0283",
+        "y f",
+        "o",
+        "d",
+        "e",
+        "r"
+    ],
+    "veado": [
+        "v",
+        "e",
+        "a",
+        "d",
+        "\u028a"
+    ],
+    "vibrador": [
+        "v",
+        "i",
+        "b",
+        "r",
+        "a",
+        "d",
+        "o",
+        "r"
+    ],
+    "xana": [
+        "\u0283",
+        "\u0250\u0303",
+        "n",
+        "\u00e6"
+    ],
+    "xochota": [
+        "\u0283",
+        "o",
+        "\u0283",
+        "\u0254",
+        "t",
+        "\u00e6"
+    ],
+    "\u00e2nus": [
+        "\u0250\u0303",
+        "n",
+        "u",
+        "s"
+    ]
 }
