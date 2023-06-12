@@ -1,319 +1,45 @@
 {
-    "arsle": [
-        "a",
-        "\u0282",
-        "l",
-        "\u0259"
-    ],
-    "brutta": [
-        "b",
-        "r",
-        "\u0275",
-        "t\u02d0",
-        "a"
-    ],
-    "discofitta": [
-        "d",
-        "\u026a",
-        "s",
-        "k",
-        "u\u02d0",
-        "f",
-        "\u026a",
-        "t\u02d0",
-        "a"
-    ],
-    "dra \u00e5t helvete": [
-        "d",
-        "r",
-        "\u0251\u02d0 o\u02d0",
-        "t h",
-        "\u025b",
-        "l",
-        "v",
-        "\u0259",
-        "t",
-        "\u0259"
-    ],
-    "fan": [
-        "f",
-        "\u0251\u02d0",
-        "n"
-    ],
-    "fitta": [
-        "f",
-        "\u026a",
-        "t\u02d0",
-        "a"
-    ],
-    "fittig": [
-        "f",
-        "\u026a",
-        "t\u02d0",
-        "\u026a",
-        "\u0261"
-    ],
-    "f\u00f6r helvete": [
-        "f",
-        "\u00f8\u02d0",
-        "r h",
-        "\u025b",
-        "l",
-        "v",
-        "\u0259",
-        "t",
-        "\u0259"
-    ],
-    "helvete": [
-        "h",
-        "\u025b",
-        "l",
-        "v",
-        "\u0259",
-        "t",
-        "\u0259"
-    ],
-    "h\u00e5rd": [
-        "h",
-        "o\u02d0",
-        "r",
-        "d"
-    ],
-    "j\u00e4vlar": [
-        "j",
-        "\u025b",
-        "v",
-        "l",
-        "a",
-        "r"
-    ],
-    "knulla": [
-        "k",
-        "n",
-        "\u0275",
-        "l",
-        "a"
-    ],
-    "kuk": [
-        "k",
-        "\u0289",
-        "k"
-    ],
-    "kuks\u00e5s": [
-        "k",
-        "\u0275",
-        "k",
-        "s",
-        "o\u02d0",
-        "s"
-    ],
-    "k\u00f6tthuvud": [
-        "\u0255",
-        "\u0153",
-        "t",
-        "h",
-        "\u0289",
-        "v",
-        "\u0289",
-        "d"
-    ],
-    "k\u00f6ttnacke": [
-        "\u0255",
-        "\u0153",
-        "t",
-        "n",
-        "a",
-        "k\u02d0",
-        "\u0259"
-    ],
-    "moona": [
-        "m",
-        "u\u02d0",
-        "u\u02d0",
-        "n",
-        "a"
-    ],
-    "moonade": [
-        "m",
-        "u\u02d0",
-        "u\u02d0",
-        "n",
-        "a",
-        "d",
-        "\u0259"
-    ],
-    "moonar": [
-        "m",
-        "u\u02d0",
-        "u\u02d0",
-        "n",
-        "a",
-        "r"
-    ],
-    "moonat": [
-        "m",
-        "u\u02d0",
-        "u\u02d0",
-        "n",
-        "a",
-        "t"
-    ],
-    "mutta": [
-        "m",
-        "\u0275",
-        "t\u02d0",
-        "a"
-    ],
-    "neger": [
-        "n",
-        "e\u02d0",
-        "j",
-        "\u0259",
-        "r"
-    ],
-    "nigger": [
-        "n",
-        "\u026a",
-        "\u0261",
-        "\u0259",
-        "r"
-    ],
-    "olla": [
-        "\u0254",
-        "l",
-        "a"
-    ],
-    "pippa": [
-        "p",
-        "\u026a",
-        "p",
-        "a"
-    ],
-    "pitt": [
-        "p",
-        "\u026a",
-        "t"
-    ],
-    "prutt": [
-        "p",
-        "r",
-        "\u0275",
-        "t"
-    ],
-    "p\u00f6k": [
-        "p",
-        "\u00f8\u02d0",
-        "k"
-    ],
-    "runka": [
-        "r",
-        "\u0275",
-        "\u014b",
-        "k",
-        "a"
-    ],
-    "r\u00f6v": [
-        "r",
-        "\u00f8\u02d0",
-        "v"
-    ],
-    "r\u00f6vh\u00e5l": [
-        "r",
-        "\u0153",
-        "v",
-        "h",
-        "o\u02d0",
-        "l"
-    ],
-    "r\u00f6vknulla": [
-        "r",
-        "\u0153",
-        "v",
-        "k",
-        "n",
-        "\u0275",
-        "l",
-        "a"
-    ],
-    "satan": [
-        "s",
-        "\u0251\u02d0",
-        "t",
-        "a",
-        "n"
-    ],
-    "skit ner dig": [
-        "sx",
-        "i\u02d0",
-        "t n",
-        "e\u02d0",
-        "r d",
-        "\u025b",
-        "j"
-    ],
-    "skita": [
-        "sx",
-        "i\u02d0",
-        "t",
-        "a"
-    ],
-    "sk\u00e4ggbiff": [
-        "sx",
-        "\u025b",
-        "\u0261",
-        "b",
-        "\u026a",
-        "f"
-    ],
-    "snedfitta": [
-        "s",
-        "n",
-        "\u025b",
-        "d",
-        "f",
-        "\u026a",
-        "t\u02d0",
-        "a"
-    ],
-    "snefitta": [
-        "s",
-        "n",
-        "e\u02d0",
-        "f",
-        "\u026a",
-        "t\u02d0",
-        "a"
-    ],
-    "stake": [
-        "s",
-        "t",
-        "\u0251\u02d0",
-        "k",
-        "\u0259"
-    ],
-    "subba": [
-        "s",
-        "\u0275",
-        "b",
-        "a"
-    ],
-    "s\u00e4tta p\u00e5": [
-        "s",
-        "\u025b",
-        "t\u02d0",
-        "a p",
-        "o\u02d0"
-    ],
-    "s\u00e5s": [
-        "s",
-        "o\u02d0",
-        "s"
-    ],
-    "tusan": [
-        "t",
-        "\u0289",
-        "s",
-        "a",
-        "n"
-    ]
+    "arsle": "a\u0282l\u0259",
+    "brutta": "br\u0275t\u02d0a",
+    "discofitta": "d\u026asku\u02d0f\u026at\u02d0a",
+    "dra \u00e5t helvete": "dr\u0251\u02d0 o\u02d0t h\u025blv\u0259t\u0259",
+    "fan": "f\u0251\u02d0n",
+    "fitta": "f\u026at\u02d0a",
+    "fittig": "f\u026at\u02d0\u026a\u0261",
+    "f\u00f6r helvete": "f\u00f8\u02d0r h\u025blv\u0259t\u0259",
+    "helvete": "h\u025blv\u0259t\u0259",
+    "h\u00e5rd": "ho\u02d0rd",
+    "j\u00e4vlar": "j\u025bvlar",
+    "knulla": "kn\u0275la",
+    "kuk": "k\u0289k",
+    "kuks\u00e5s": "k\u0275kso\u02d0s",
+    "k\u00f6tthuvud": "\u0255\u0153th\u0289v\u0289d",
+    "k\u00f6ttnacke": "\u0255\u0153tnak\u02d0\u0259",
+    "moona": "mu\u02d0u\u02d0na",
+    "moonade": "mu\u02d0u\u02d0nad\u0259",
+    "moonar": "mu\u02d0u\u02d0nar",
+    "moonat": "mu\u02d0u\u02d0nat",
+    "mutta": "m\u0275t\u02d0a",
+    "neger": "ne\u02d0j\u0259r",
+    "nigger": "n\u026a\u0261\u0259r",
+    "olla": "\u0254la",
+    "pippa": "p\u026apa",
+    "pitt": "p\u026at",
+    "prutt": "pr\u0275t",
+    "p\u00f6k": "p\u00f8\u02d0k",
+    "runka": "r\u0275\u014bka",
+    "r\u00f6v": "r\u00f8\u02d0v",
+    "r\u00f6vh\u00e5l": "r\u0153vho\u02d0l",
+    "r\u00f6vknulla": "r\u0153vkn\u0275la",
+    "satan": "s\u0251\u02d0tan",
+    "skit ner dig": "sxi\u02d0t ne\u02d0r d\u025bj",
+    "skita": "sxi\u02d0ta",
+    "sk\u00e4ggbiff": "sx\u025b\u0261b\u026af",
+    "snedfitta": "sn\u025bdf\u026at\u02d0a",
+    "snefitta": "sne\u02d0f\u026at\u02d0a",
+    "stake": "st\u0251\u02d0k\u0259",
+    "subba": "s\u0275ba",
+    "s\u00e4tta p\u00e5": "s\u025bt\u02d0a po\u02d0",
+    "s\u00e5s": "so\u02d0s",
+    "tusan": "t\u0289san"
 }

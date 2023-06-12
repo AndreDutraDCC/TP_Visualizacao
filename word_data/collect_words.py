@@ -80,12 +80,12 @@ def obter_fonemas(palavras, lingua='pt-br'):
   phos = phonemize(palavras,
     language=lingua,
     backend="espeak",
-    separator=Separator(phone=',', word=' ', syllable=None),
+    separator=Separator(phone=None, word=' ', syllable='|'),
     strip=True,
     preserve_punctuation=True,
     njobs=4)
-  
-  return [str(pho).split(',') for pho in phos]
+
+  return [str(pho) for pho in phos]
 
 
 _, lang_code, base = argv

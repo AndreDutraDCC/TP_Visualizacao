@@ -1,640 +1,93 @@
 {
-    "MALPT": [
-        "m",
-        "a",
-        "l"
-    ],
-    "baiser": [
-        "b",
-        "\u025b",
-        "z",
-        "e"
-    ],
-    "bander": [
-        "b",
-        "\u0251\u0303",
-        "d",
-        "e"
-    ],
-    "bigornette": [
-        "b",
-        "i",
-        "\u0261",
-        "\u0254",
-        "\u0281",
-        "n",
-        "\u025b",
-        "t"
-    ],
-    "bite": [
-        "b",
-        "i",
-        "t"
-    ],
-    "bitte": [
-        "b",
-        "i",
-        "t"
-    ],
-    "bloblos": [
-        "b",
-        "l",
-        "\u0254",
-        "b",
-        "l",
-        "o"
-    ],
-    "bordel": [
-        "b",
-        "\u0254",
-        "\u0281",
-        "d",
-        "\u025b",
-        "l"
-    ],
-    "bourr\u00e9": [
-        "b",
-        "u",
-        "\u0281",
-        "e"
-    ],
-    "bourr\u00e9e": [
-        "b",
-        "u",
-        "\u0281",
-        "e"
-    ],
-    "brackmard": [
-        "b",
-        "\u0281",
-        "a",
-        "k",
-        "m",
-        "a",
-        "\u0281"
-    ],
-    "branlage": [
-        "b",
-        "\u0281",
-        "\u0251\u0303",
-        "l",
-        "a",
-        "\u0292"
-    ],
-    "branler": [
-        "b",
-        "\u0281",
-        "\u0251\u0303",
-        "l",
-        "e"
-    ],
-    "branlette": [
-        "b",
-        "\u0281",
-        "\u0251\u0303",
-        "l",
-        "\u025b",
-        "t"
-    ],
-    "branleur": [
-        "b",
-        "\u0281",
-        "\u0251\u0303",
-        "l",
-        "\u0153",
-        "\u0281"
-    ],
-    "branleuse": [
-        "b",
-        "\u0281",
-        "\u0251\u0303",
-        "l",
-        "\u00f8",
-        "z"
-    ],
-    "brouter le cresson": [
-        "b",
-        "\u0281",
-        "u",
-        "t",
-        "e l",
-        "\u0259 k",
-        "\u0281",
-        "\u025b",
-        "s",
-        "\u0254\u0303"
-    ],
-    "caca": [
-        "k",
-        "a",
-        "k",
-        "a"
-    ],
-    "chatte": [
-        "\u0283",
-        "a",
-        "t"
-    ],
-    "chiasse": [
-        "\u0283",
-        "j",
-        "a",
-        "s"
-    ],
-    "chier": [
-        "\u0283",
-        "j",
-        "e"
-    ],
-    "chiottes": [
-        "\u0283",
-        "j",
-        "\u0254",
-        "t"
-    ],
-    "clito": [
-        "k",
-        "l",
-        "i",
-        "t",
-        "o"
-    ],
-    "clitoris": [
-        "k",
-        "l",
-        "i",
-        "t",
-        "o",
-        "\u0281",
-        "i",
-        "s"
-    ],
-    "con": [
-        "k",
-        "\u0254\u0303"
-    ],
-    "connard": [
-        "k",
-        "\u0254",
-        "n",
-        "a",
-        "\u0281"
-    ],
-    "connasse": [
-        "k",
-        "\u0254",
-        "n",
-        "a",
-        "s"
-    ],
-    "conne": [
-        "k",
-        "\u0254",
-        "n"
-    ],
-    "couilles": [
-        "k",
-        "u",
-        "j"
-    ],
-    "cramouille": [
-        "k",
-        "\u0281",
-        "a",
-        "m",
-        "u",
-        "j"
-    ],
-    "cul": [
-        "k",
-        "y"
-    ],
-    "d\u00e9conne": [
-        "d",
-        "e",
-        "k",
-        "\u0254",
-        "n"
-    ],
-    "d\u00e9conner": [
-        "d",
-        "e",
-        "k",
-        "\u0254",
-        "n",
-        "e"
-    ],
-    "emmerdant": [
-        "\u0251\u0303",
-        "m",
-        "\u025b",
-        "\u0281",
-        "d",
-        "\u0251\u0303"
-    ],
-    "emmerder": [
-        "\u0251\u0303",
-        "m",
-        "\u025b",
-        "\u0281",
-        "d",
-        "e"
-    ],
-    "emmerdeur": [
-        "\u0251\u0303",
-        "m",
-        "\u025b",
-        "\u0281",
-        "d",
-        "\u0153",
-        "\u0281"
-    ],
-    "emmerdeuse": [
-        "\u0251\u0303",
-        "m",
-        "\u025b",
-        "\u0281",
-        "d",
-        "\u00f8",
-        "z"
-    ],
-    "enculeur": [
-        "\u0251\u0303",
-        "k",
-        "y",
-        "l",
-        "\u0153",
-        "\u0281"
-    ],
-    "enculeurs": [
-        "\u0251\u0303",
-        "k",
-        "y",
-        "l",
-        "\u0153",
-        "\u0281"
-    ],
-    "encul\u00e9": [
-        "\u0251\u0303",
-        "k",
-        "y",
-        "l",
-        "e"
-    ],
-    "encul\u00e9e": [
-        "\u0251\u0303",
-        "k",
-        "y",
-        "l",
-        "e"
-    ],
-    "enfoir\u00e9": [
-        "\u0251\u0303",
-        "f",
-        "w",
-        "a",
-        "\u0281",
-        "e"
-    ],
-    "enfoir\u00e9e": [
-        "\u0251\u0303",
-        "f",
-        "w",
-        "a",
-        "\u0281",
-        "e"
-    ],
-    "fille de pute": [
-        "f",
-        "i",
-        "j d",
-        "\u0259 p",
-        "y",
-        "t"
-    ],
-    "fils de pute": [
-        "f",
-        "i",
-        "l d",
-        "\u0259 p",
-        "y",
-        "t"
-    ],
-    "folle": [
-        "f",
-        "\u0254",
-        "l"
-    ],
-    "foutre": [
-        "f",
-        "u",
-        "t",
-        "\u0281"
-    ],
-    "gerbe": [
-        "\u0292",
-        "\u025b",
-        "\u0281",
-        "b"
-    ],
-    "gerber": [
-        "\u0292",
-        "\u025b",
-        "\u0281",
-        "b",
-        "e"
-    ],
-    "gouine": [
-        "\u0261",
-        "w",
-        "i",
-        "n"
-    ],
-    "grande folle": [
-        "\u0261",
-        "\u0281",
-        "\u0251\u0303",
-        "d f",
-        "\u0254",
-        "l"
-    ],
-    "grogniasse": [
-        "\u0261",
-        "\u0281",
-        "o",
-        "\u0272",
-        "j",
-        "a",
-        "s"
-    ],
-    "gueule": [
-        "\u0261",
-        "\u0153",
-        "l"
-    ],
-    "jouir": [
-        "\u0292",
-        "w",
-        "i",
-        "\u0281"
-    ],
-    "la putain de ta m\u00e8re": [
-        "l",
-        "a p",
-        "y",
-        "t",
-        "\u025b\u0303 d",
-        "\u0259 t",
-        "a m",
-        "\u025b",
-        "\u0281"
-    ],
-    "merde": [
-        "m",
-        "\u025b",
-        "\u0281",
-        "d"
-    ],
-    "merdeuse": [
-        "m",
-        "\u025b",
-        "\u0281",
-        "d",
-        "\u00f8",
-        "z"
-    ],
-    "merdeux": [
-        "m",
-        "\u025b",
-        "\u0281",
-        "d",
-        "\u00f8"
-    ],
-    "meuf": [
-        "m",
-        "\u0153",
-        "f"
-    ],
-    "m\u00e9nage \u00e0 trois": [
-        "m",
-        "e",
-        "n",
-        "a",
-        "\u0292 a t",
-        "\u0281",
-        "w",
-        "a"
-    ],
-    "negro": [
-        "n",
-        "\u0259",
-        "\u0261",
-        "\u0281",
-        "o"
-    ],
-    "nique ta m\u00e8re": [
-        "n",
-        "i",
-        "k t",
-        "a m",
-        "\u025b",
-        "\u0281"
-    ],
-    "nique ta race": [
-        "n",
-        "i",
-        "k t",
-        "a \u0281",
-        "a",
-        "s"
-    ],
-    "n\u00e8gre": [
-        "n",
-        "\u025b",
-        "\u0261",
-        "\u0281"
-    ],
-    "palucher": [
-        "p",
-        "a",
-        "l",
-        "y",
-        "\u0283",
-        "e"
-    ],
-    "pipi": [
-        "p",
-        "i",
-        "p",
-        "i"
-    ],
-    "pisser": [
-        "p",
-        "i",
-        "s",
-        "e"
-    ],
-    "pouffiasse": [
-        "p",
-        "u",
-        "f",
-        "j",
-        "a",
-        "s"
-    ],
-    "pousse-crotte": [
-        "p",
-        "u",
-        "s",
-        "k",
-        "\u0281",
-        "\u0254",
-        "t"
-    ],
-    "putain": [
-        "p",
-        "y",
-        "t",
-        "\u025b\u0303"
-    ],
-    "pute": [
-        "p",
-        "y",
-        "t"
-    ],
-    "p\u00e9dale": [
-        "p",
-        "e",
-        "d",
-        "a",
-        "l"
-    ],
-    "p\u00e9d\u00e9": [
-        "p",
-        "e",
-        "d",
-        "e"
-    ],
-    "p\u00e9ter": [
-        "p",
-        "e",
-        "t",
-        "e"
-    ],
-    "ramoner": [
-        "\u0281",
-        "a",
-        "m",
-        "o",
-        "n",
-        "e"
-    ],
-    "sac \u00e0 foutre": [
-        "s",
-        "a",
-        "k a f",
-        "u",
-        "t",
-        "\u0281"
-    ],
-    "sac \u00e0 merde": [
-        "s",
-        "a",
-        "k a m",
-        "\u025b",
-        "\u0281",
-        "d"
-    ],
-    "salaud": [
-        "s",
-        "a",
-        "l",
-        "o"
-    ],
-    "salope": [
-        "s",
-        "a",
-        "l",
-        "\u0254",
-        "p"
-    ],
-    "suce": [
-        "s",
-        "y",
-        "s"
-    ],
-    "tanche": [
-        "t",
-        "\u0251\u0303",
-        "\u0283"
-    ],
-    "tapette": [
-        "t",
-        "a",
-        "p",
-        "\u025b",
-        "t"
-    ],
-    "teuch": [
-        "t",
-        "\u0153",
-        "\u0283"
-    ],
-    "tringler": [
-        "t",
-        "\u0281",
-        "\u025b\u0303",
-        "\u0261",
-        "l",
-        "e"
-    ],
-    "trique": [
-        "t",
-        "\u0281",
-        "i",
-        "k"
-    ],
-    "troncher": [
-        "t",
-        "\u0281",
-        "\u0254\u0303",
-        "\u0283",
-        "e"
-    ],
-    "trou du cul": [
-        "t",
-        "\u0281",
-        "u d",
-        "y k",
-        "y"
-    ],
-    "turlute": [
-        "t",
-        "y",
-        "\u0281",
-        "l",
-        "y",
-        "t"
-    ],
-    "zigounette": [
-        "z",
-        "i",
-        "\u0261",
-        "u",
-        "n",
-        "\u025b",
-        "t"
-    ],
-    "zizi": [
-        "z",
-        "i",
-        "z",
-        "i"
-    ],
-    "\u00e9tron": [
-        "e",
-        "t",
-        "\u0281",
-        "\u0254\u0303"
-    ]
+    "MALPT": "mal",
+    "baiser": "b\u025bze",
+    "bander": "b\u0251\u0303de",
+    "bigornette": "bi\u0261\u0254\u0281n\u025bt",
+    "bite": "bit",
+    "bitte": "bit",
+    "bloblos": "bl\u0254blo",
+    "bordel": "b\u0254\u0281d\u025bl",
+    "bourr\u00e9": "bu\u0281e",
+    "bourr\u00e9e": "bu\u0281e",
+    "brackmard": "b\u0281akma\u0281",
+    "branlage": "b\u0281\u0251\u0303la\u0292",
+    "branler": "b\u0281\u0251\u0303le",
+    "branlette": "b\u0281\u0251\u0303l\u025bt",
+    "branleur": "b\u0281\u0251\u0303l\u0153\u0281",
+    "branleuse": "b\u0281\u0251\u0303l\u00f8z",
+    "brouter le cresson": "b\u0281ute l\u0259 k\u0281\u025bs\u0254\u0303",
+    "caca": "kaka",
+    "chatte": "\u0283at",
+    "chiasse": "\u0283jas",
+    "chier": "\u0283je",
+    "chiottes": "\u0283j\u0254t",
+    "clito": "klito",
+    "clitoris": "klito\u0281is",
+    "con": "k\u0254\u0303",
+    "connard": "k\u0254na\u0281",
+    "connasse": "k\u0254nas",
+    "conne": "k\u0254n",
+    "couilles": "kuj",
+    "cramouille": "k\u0281amuj",
+    "cul": "ky",
+    "d\u00e9conne": "dek\u0254n",
+    "d\u00e9conner": "dek\u0254ne",
+    "emmerdant": "\u0251\u0303m\u025b\u0281d\u0251\u0303",
+    "emmerder": "\u0251\u0303m\u025b\u0281de",
+    "emmerdeur": "\u0251\u0303m\u025b\u0281d\u0153\u0281",
+    "emmerdeuse": "\u0251\u0303m\u025b\u0281d\u00f8z",
+    "enculeur": "\u0251\u0303kyl\u0153\u0281",
+    "enculeurs": "\u0251\u0303kyl\u0153\u0281",
+    "encul\u00e9": "\u0251\u0303kyle",
+    "encul\u00e9e": "\u0251\u0303kyle",
+    "enfoir\u00e9": "\u0251\u0303fwa\u0281e",
+    "enfoir\u00e9e": "\u0251\u0303fwa\u0281e",
+    "fille de pute": "fij d\u0259 pyt",
+    "fils de pute": "fil d\u0259 pyt",
+    "folle": "f\u0254l",
+    "foutre": "fut\u0281",
+    "gerbe": "\u0292\u025b\u0281b",
+    "gerber": "\u0292\u025b\u0281be",
+    "gouine": "\u0261win",
+    "grande folle": "\u0261\u0281\u0251\u0303d f\u0254l",
+    "grogniasse": "\u0261\u0281o\u0272jas",
+    "gueule": "\u0261\u0153l",
+    "jouir": "\u0292wi\u0281",
+    "la putain de ta m\u00e8re": "la pyt\u025b\u0303 d\u0259 ta m\u025b\u0281",
+    "merde": "m\u025b\u0281d",
+    "merdeuse": "m\u025b\u0281d\u00f8z",
+    "merdeux": "m\u025b\u0281d\u00f8",
+    "meuf": "m\u0153f",
+    "m\u00e9nage \u00e0 trois": "mena\u0292 a t\u0281wa",
+    "negro": "n\u0259\u0261\u0281o",
+    "nique ta m\u00e8re": "nik ta m\u025b\u0281",
+    "nique ta race": "nik ta \u0281as",
+    "n\u00e8gre": "n\u025b\u0261\u0281",
+    "palucher": "paly\u0283e",
+    "pipi": "pipi",
+    "pisser": "pise",
+    "pouffiasse": "pufjas",
+    "pousse-crotte": "pusk\u0281\u0254t",
+    "putain": "pyt\u025b\u0303",
+    "pute": "pyt",
+    "p\u00e9dale": "pedal",
+    "p\u00e9d\u00e9": "pede",
+    "p\u00e9ter": "pete",
+    "ramoner": "\u0281amone",
+    "sac \u00e0 foutre": "sak a fut\u0281",
+    "sac \u00e0 merde": "sak a m\u025b\u0281d",
+    "salaud": "salo",
+    "salope": "sal\u0254p",
+    "suce": "sys",
+    "tanche": "t\u0251\u0303\u0283",
+    "tapette": "tap\u025bt",
+    "teuch": "t\u0153\u0283",
+    "tringler": "t\u0281\u025b\u0303\u0261le",
+    "trique": "t\u0281ik",
+    "troncher": "t\u0281\u0254\u0303\u0283e",
+    "trou du cul": "t\u0281u dy ky",
+    "turlute": "ty\u0281lyt",
+    "zigounette": "zi\u0261un\u025bt",
+    "zizi": "zizi",
+    "\u00e9tron": "et\u0281\u0254\u0303"
 }
