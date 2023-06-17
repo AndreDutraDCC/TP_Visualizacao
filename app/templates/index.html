@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14"></script>
+    <script> var props = JSON.parse('{{ props|tojson }}'); </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div id="app-1" class="bg-neutral-100 w-full h-full min-h-[100vh]">
+        <div class="w-[60%] mx-auto flex justify-center">
+            <h1 class="mt-12 text-2xl font-bold"> Choose a Visualization: </h1>
+        </div>
+        <div class="w-[60%] mx-auto mt-6 flex justify-center">
+            <div class="rounded-lg bg-gradient-to-r from-red-200 to-red-300 hover:from-pink-400 hover:to-pink-500 mx-6 cursor-pointer px-6 py-1 text-red-900 hover:text-white" v-for="route in routes" :key="route" @click="changeCurrent(route.key)">
+                <span class="font-bold" v-html="route.title"></span>
+            </div>
+        </div>
+        <div class="w-[60%] mt-4 mx-auto">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+
+    <script>
+        let vm = new Vue({
+            el: '#app-1',
+            data() {
+                return {
+                    ...props,
+                    current: 0,
+                    myChart: null
+                }
+            },
+            mounted() {
+            },
+            methods: {
+                changeCurrent(index){
+                    this.current = index
+                    let info = this.chartInfo[index]
+                    this.createChart(info, index==0)
+                },
+                getWord(tooltipItems){
+                    console.log(tooltipItems)
+                    return tooltipItems.raw.word
+                },
+                createChart(info, resetLabels=false) {
+                    if (this.myChart) this.myChart.destroy()
+
+                    let ctx = document.getElementById('myChart').getContext('2d')
+                    if(resetLabels){
+                        info.options.plugins = {
+                            'tooltip': {
+                                'callbacks': {
+                                    'label': this.getWord
+                                }
+                            }
+                        }
+                    }
+                    console.log(info)
+                    this.myChart = new Chart(ctx, info)
+                }
+            },
+        });
+
+
+    </script>
+</body>
+
+</html>

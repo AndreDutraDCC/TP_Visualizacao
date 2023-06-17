@@ -84,7 +84,7 @@ def obter_fonemas(palavras, lingua='pt-br'):
     strip=True,
     preserve_punctuation=True,
     njobs=4)
-  
+
   return [str(pho) for pho in phos]
 
 
