@@ -3,5 +3,6 @@
 #sudo bash requirements.sh
 
 pip install phonemizer
+pip install flask
+pip install ./network_chart/forceatlas2 --user
 apt-get install espeak
-phonemize --version

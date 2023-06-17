@@ -1,6 +1,6 @@
 for base in clean
 do
-    for lang in en es #fa fr hi hu it pt ru sv tr zh #cs de
+    for lang in   hi zh #hu sv tr ru it pt fr es en #cs de fa 
     do
         python3 collect_words.py $lang $base
     done

@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-def getData(languages):
+def getData(languages, base='dirty'):
     fonemasALL = []
     fonemasLABELS = languages#['cs', 'en', 'de']
     cores = ['green', 'blue', 'yellow', 'red', 'purple', 'crimson']  # Adicione mais mapeamentos conforme necessário
@@ -11,8 +11,8 @@ def getData(languages):
     for i in range(len(fonemasLABELS)):
         mapeamento_cores[fonemasLABELS[i]] = cores[i]
 
-    for l in fonemasLABELS:
-        with open('test/'+l+'.json', 'r') as file:
+    for lang_code in fonemasLABELS:
+        with open('word_data/{}/{}.json'.format(base, lang_code), 'r') as file:
             dados = file.read()
         fonemasALL.append(json.loads(dados))
 

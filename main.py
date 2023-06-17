@@ -1,6 +1,7 @@
 from flask import Flask, render_template
-import test.main as file1
 import pandas as pd
+
+import scatter_chart.gen_data as scatter_data
 
 app = Flask(__name__)
 
@@ -21,7 +22,7 @@ def index():
 
 
 def getChartInfo1():
-    data1 = file1.getData(['en', 'fr', 'it', 'es', 'pt', 'ru'])
+    data1 = scatter_data.getData(['en', 'fr', 'it', 'es', 'pt', 'ru'])
     datasets = []
     for i in range(len(data1["labels"])):
         datasets.append({
