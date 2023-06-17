@@ -3,6 +3,11 @@
 #sudo bash requirements.sh
 
 pip install phonemizer
-pip install flask
-pip install ./network_chart/forceatlas2 --user
 apt-get install espeak
+
+pip install flask
+
+cd network_chart
+git clone https://github.com/bhargavchippada/forceatlas2
+cd forceatlas2
+pip install . --user

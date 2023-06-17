@@ -2,6 +2,8 @@ from flask import Flask, render_template
 import pandas as pd
 
 import scatter_chart.gen_data as scatter_data
+import radar_chart.gen_data   as   radar_data
+import network_chart.gen_data as network_data
 
 app = Flask(__name__)
 
