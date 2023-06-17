@@ -11,3 +11,5 @@ cd network_chart
 git clone https://github.com/bhargavchippada/forceatlas2
 cd forceatlas2
 pip install . --user
+
+cd ../..
