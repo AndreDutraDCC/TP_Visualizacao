@@ -52,38 +52,24 @@ def getChartInfo1():
     return config
 
 def getChartInfo2():
+    data1 = radar_data.getData(['en', 'fr', 'it', 'es', 'pt', 'ru'])
+    datasets = []
+    labels = []
+    for i in range(len(data1["labels"])):
+        labels.append(data1['data'][i][0])
+        datasets.append({
+            'label': data1['labels'][i],
+            'backgroundColor' : data1['colors'][i],
+            'data' : data1['data'][i][1:],
+        })
+
     data = {
-        'labels': [
-            'Eating',
-            'Drinking',
-            'Sleeping',
-            'Designing',
-            'Coding',
-            'Cycling',
-            'Running'
-        ],
-        'datasets': [{
-            'label': 'My First Dataset',
-            'data': [65, 59, 90, 81, 56, 55, 40],
-            'fill': True,
-            'backgroundColor': 'rgba(255, 99, 132, 0.2)',
-            'borderColor': 'rgb(255, 99, 132)',
-            'pointBackgroundColor': 'rgb(255, 99, 132)',
-            'pointBorderColor': '#fff',
-            'pointHoverBackgroundColor': '#fff',
-            'pointHoverBorderColor': 'rgb(255, 99, 132)'
-        }, {
-            'label': 'My Second Dataset',
-            'data': [28, 48, 40, 19, 96, 27, 100],
-            'fill': True,
-            'backgroundColor': 'rgba(54, 162, 235, 0.2)',
-            'borderColor': 'rgb(54, 162, 235)',
-            'pointBackgroundColor': 'rgb(54, 162, 235)',
-            'pointBorderColor': '#fff',
-            'pointHoverBackgroundColor': '#fff',
-            'pointHoverBorderColor': 'rgb(54, 162, 235)'
-        }]
+        'labels': labels,
+        'datasets': datasets,
     }
+
+
+
 
     config = {
         'type': 'radar',
@@ -93,7 +79,10 @@ def getChartInfo2():
                 'line': {
                     'borderWidth': 3
                 }
-            }
+            },
+            'scales': {
+                'r': {'suggestedMin': 0, 'suggestedMax': 100}
+            },
         },
     }
 
