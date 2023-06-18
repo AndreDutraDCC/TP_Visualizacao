@@ -40,13 +40,6 @@ def getData(languages, base='dirty'):
         dados_finais.append([fonema] + ocorrencias)
 
 
-
- #   for fonema in fonemas_mais_frequentes:
- #       for lang in data:
- #           if fonema in lang:
- #               dados_finais.append([fonema,lang[fonema]])
- #           else:
- #               dados_finais.append([fonema, 0])
     data = dados_finais
 
 
