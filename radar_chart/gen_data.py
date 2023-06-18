@@ -3,7 +3,7 @@ from collections import Counter
 import sys
 
 def getData(languages, base='dirty'):
-        # Obtém o nome do arquivo a partir do argumento
+    # Obtém o nome do arquivo a partir do argumento
     fonemasALL = []
     fonemasLABELS = languages
     # Abre o arquivo JSON
