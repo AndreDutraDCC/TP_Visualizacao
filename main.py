@@ -100,24 +100,48 @@ def getChartInfo2():
     return config
 
 def getChartInfo3():
-    data = {
-        'datasets': [{
-            'label': 'First Dataset',
+    languages = ['es','pt','fr','it','de','en','ru','sv','tr','hu','cs','hi','zh','fa']
+
+    response = network_data.getData(languages, 'dirty', 4.5)
+
+    nodes_df, edges_data, labels, colors = response.values()
+
+    datasets = []
+
+    for lang, color in zip(labels, colors):
+        row = nodes_df.loc[lang]
+
+        dataset = {
+            'type': 'bubble',
+            'label': lang,
             'data': [{
-                'x': 20,
-                'y': 30,
+                'x': row['x'],
+                'y': row['y'],
                 'r': 15
-            }, {
-                'x': 40,
-                'y': 10,
-                'r': 10
             }],
-            'backgroundColor': 'rgb(255, 99, 132)'
-        }]
+            'backgroundColor': 'rgb({},{},{})'.format(*(round(255*val) for val in color)),
+            'order': 1
+
+        }
+
+        datasets.append(dataset)
+
+    '''for x, y in edges_data.values():
+        dataset = {
+            'type': 'line',
+            'data': y,
+            'backgroundColor': 'rgb(200,200,200)',
+            'order': 2
+
+        }
+        datasets.append(dataset)'''
+
+    
+    data = {
+        'datasets': datasets
     }
     
     config = {
-        'type': 'bubble',
         'data': data,
         'options': {}
     }

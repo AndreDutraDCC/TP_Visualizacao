@@ -7,6 +7,8 @@ apt-get install espeak
 
 pip install flask
 
+pip install networkx
+
 cd network_chart
 git clone https://github.com/bhargavchippada/forceatlas2
 cd forceatlas2
