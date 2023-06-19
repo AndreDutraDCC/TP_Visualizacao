@@ -52,14 +52,13 @@ def getChartInfo1():
     return config
 
 def getChartInfo2():
-    data1 = radar_data.getData(['en', 'fr', 'it', 'es', 'pt', 'ru'])
+    data1 = radar_data.getData( ['es','pt','fr','it','de','en','ru','sv','tr','hu','cs','hi','zh','fa'])
     datasets = []
     labels = []
     for i in range(len(data1["labels"])):
         labels.append(data1['data'][i][0])
         datasets.append({
             'label': data1['labels'][i],
-            'backgroundColor' : data1['colors'][i],
             'data' : data1['data'][i][1:],
         })
 
