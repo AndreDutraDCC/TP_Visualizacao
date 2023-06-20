@@ -22,8 +22,16 @@
                 <span class="font-bold" v-html="route.title"></span>
             </div>
         </div>
+        
+        <div class="w-[60%] mt-6 mx-auto flex justify-center" v-if="current==0">
+            <span class="font-bold mx-2" >Selecione uma linguagem:</span> 
+            <select class="outline rounded-lg" v-model="language" @change="makePareto()">
+                <option v-for="l in languageList" :key="l.value" v-html="l.text"></option>
+            </select>
+        </div>
+
         <div class="w-[60%] mt-4 mx-auto">
-            <canvas v-show="showChart" id="myChart"></canvas>
+            <canvas class="w-full" v-show="showChart" id="myChart"></canvas>
             <div class="min-h-[80vh]" v-show="!showChart" id="plot"></div>
         </div>
     </div>
@@ -35,9 +43,13 @@
             data() {
                 return {
                     ...props,
-                    current: 0,
+                    selected: '',
+                    current: -1,
                     myChart: null,
                     showChart: true,
+                    language: '',
+                    languageList: [],
+                    languageInfo: {},
                 }
             },
             mounted() {
@@ -51,28 +63,58 @@
                     this.current = index
                     let info = this.chartInfo[index]
                     if (this.showChart){
-                        this.createChart(info, index==0)
+                        this.createChart(info, index)
                     }else{
                         setTimeout(() => {
                             this.plotGraph(info)
                         }, 200)
                     }
                 },
+                getLanguage(tooltipItems){
+                    return `(${tooltipItems.raw.language})`
+                },
                 getWord(tooltipItems){
                     return tooltipItems.raw.word
                 },
-                createChart(info, resetLabels=false) {
+                makePareto(){
+                    let info = this.chartInfo[0]
+                    this.createChart(info, 0, false)
+                },
+                createChart(info, index, updateData=true) {
                     if (this.myChart) this.myChart.destroy()
-
+                    let chartInfo = {}
                     let ctx = document.getElementById('myChart').getContext('2d')
-                    if(resetLabels){
-                        info.options.plugins.tooltip = {
-                            'callbacks': {
-                                'label': this.getWord
+                    if(index==0){
+                        chartInfo = info[0]
+                        if(updateData){
+                            this.languageInfo = {}
+                            this.languageList = []
+                            info[2].forEach(l => {
+                                this.languageList.push({'value': l, 'text': info[3][l][0]})
+                                this.languageInfo[info[3][l][0]] = l
+                            });
+                            this.language = this.languageList[0].text
+                        }
+                        let l_key = this.languageInfo[this.language]
+                        chartInfo.data.labels = info[1][l_key].labelsData
+                        chartInfo.data.datasets[0].data = info[1][l_key].barData
+                        chartInfo.data.datasets[1].data = info[1][l_key].lineData
+                        chartInfo.options.scales.y2.ticks = {
+                            callback: function(value, index, ticks) {
+                                return value + '%'
                             }
                         }
+                        chartInfo.options.plugins.title = {
+                            display: true,
+                            text: this.language
+                        }
                     }
-                    this.myChart = new Chart(ctx, info)
+                    if(index==1){
+                        chartInfo = info
+                        chartInfo.options.plugins.tooltip.callbacks.afterLabel = this.getLanguage
+                        chartInfo.options.plugins.tooltip.callbacks.label = this.getWord
+                    }
+                    this.myChart = new Chart(ctx, chartInfo)
                 }
             },
         });

@@ -1,7 +1,9 @@
 import os
 import pandas as pd
+from itertools import accumulate
 from flask import Flask, render_template
 
+import pareto_chart.gen_data as pareto_data
 import scatter_chart.gen_data as scatter_data
 import radar_chart.gen_data   as   radar_data
 import network_chart.gen_data as network_data
@@ -22,18 +24,18 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     routes = [
-        {'link': "primeira", 'title': "Scatter", 'key': 0, 'isChart':True},
-        {'link': 'segunda', 'title': "Star Plot", 'key': 1, 'isChart':False},
-        {'link': "terceira", 'title': "Graph", 'key': 2, 'isChart':False}
+        {'link': "zero", 'title': "Pareto", 'key': 0, 'isChart':True},
+        {'link': "primeira", 'title': "Scatter", 'key': 1, 'isChart':True},
+        {'link': 'segunda', 'title': "Radar", 'key': 2, 'isChart':False},
+        {'link': "terceira", 'title': "Network", 'key': 3, 'isChart':False}
     ] # Page Names
 
     # Get visualizations info
-    chartInfo = [getChartInfo1(), getChartInfo2(), getChartInfo3()]
+    chartInfo = [getChartInfo0(), getChartInfo1(), getChartInfo2(), getChartInfo3()]
 
     props = {'routes': routes, 'chartInfo':chartInfo}
 
     return render_template('index.html', props=props)
-
 
 def getLanguages(base="dirty"):
     langs = []
@@ -55,16 +57,100 @@ def getLanguageInfo():
     with open('word_data/language_info.json', 'r') as f:
         return json.load(f)
 
+def getChartInfo0():
+    data1 = pareto_data.getData(getLanguages())
+
+    labelsData = []
+    barData = []
+    lineData = []
+    for index, row in data1['data'].iterrows():
+        labelsData.append([])
+        barData.append([])
+        lineData.append([])
+        for f in data1['fonemas']:
+            if row[f] > 0:
+                labelsData[-1].append(f)
+                barData[-1].append(row[f])
+                if row['total'] > 0:
+                    lineData[-1].append(round(row[f]/row['total']*100))
+                else:
+                    lineData[-1].append(0)
+
+    arrayOfObj = []
+
+    for index, row in data1['data'].iterrows():
+        arrayOfObj.append([
+            {"labelData": l, "barData": barData[index][i], 'lineData': lineData[index][i]}
+            for i, l in enumerate(labelsData[index])
+        ])
+
+    sortedArrayOfObj = []
+    for a in arrayOfObj:
+        sortedArrayOfObj.append(sorted(a, key=lambda x: x["barData"], reverse=True))
+
+    allData = {}
+    for language in range(len(data1['languages'])):
+        allData[data1['languages'][language]] = {
+            'labelsData': [],
+            'barData': [],
+            'lineData': []
+        }
+        for d in sortedArrayOfObj[language]:
+            allData[data1['languages'][language]]['labelsData'].append(d["labelData"])
+            allData[data1['languages'][language]]['barData'].append(d["barData"])
+            allData[data1['languages'][language]]['lineData'].append(d["lineData"])
+
+        allData[data1['languages'][language]]['lineData'] = list(accumulate( allData[data1['languages'][language]]['lineData'], lambda a, b: a+b))
+
+    data = {
+        'labels': allData[data1['languages'][0]]['labelsData'], #[row["language"] for index, row in data1['data'].iterrows()],
+        'datasets': [{
+            'type': 'bar',
+            'label': 'Frequência',
+            'data': allData[data1['languages'][0]]['barData'],
+            'borderColor': 'rgb(255, 99, 132)',
+            'backgroundColor': 'rgba(255, 99, 132, 0.2)',
+            'yAxisID': 'y1'
+        }, {
+            'type': 'line',
+            'label': 'Percentual',
+            'data': allData[data1['languages'][0]]['lineData'],
+            'fill': False,
+            'borderColor': 'rgb(54, 162, 235)',
+            'yAxisID': 'y2'
+        }]
+    }
+    config = {
+        'type': 'scatter',
+        'data': data,
+        'options': {
+            'plugins': {
+            },
+            'scales': {
+                'y1': {
+                    'beginAtZero': True,
+                    'position': 'left',
+                },
+                'y2': {
+                    'beginAtZero': True,
+                    'position': 'right',
+                }
+            }
+        }
+    }
+    
+    return [config, allData, data1['languages'], data1['languageData']]
+
 def getChartInfo1():
     colormap = getColorMap(0.6)
 
     data1 = scatter_data.getData(getLanguages())
     datasets = []
-    # print(data1)
+
     for l_key in data1["labels"]:
         datasets.append({
             'label': data1["languageData"][l_key][0],
-            'data' : [{'x': row["Componente 1"], 'y': row["Componente 2"], 'word': row["word"]} for index, row in data1['data'].iterrows() if row['language'] == data1["languageData"][l_key][0]],
+            'data' : [{'x': row["Componente 1"], 'y': row["Componente 2"], 'word': row["word"], 'language': row["language"], 'language_key': row['language_key']} for index, row in data1['data'].iterrows() if row['language'] == data1["languageData"][l_key][0]],
             'backgroundColor': colormap[l_key]
         })
     data = {
@@ -75,6 +161,10 @@ def getChartInfo1():
         'data': data,
         'options': {
             'plugins': {
+                'tooltip': {
+                    'callbacks': {
+                    }
+                },
                 'zoom': {
                     'pan': {
                         'enabled': True,
