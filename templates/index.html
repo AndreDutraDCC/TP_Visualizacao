@@ -4,13 +4,16 @@
 <head>
     <title>Data Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14"></script>
     <script> var props = JSON.parse('{{ props|tojson }}'); </script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
 <body>
-    <div id="app-1" class="bg-neutral-100 w-full h-full min-h-[100vh]">
+    <div id="app-1" class=" w-full h-full min-h-[100vh]">
         <div class="w-[60%] mx-auto flex justify-center">
             <h1 class="mt-12 text-2xl font-bold"> Choose a Visualization: </h1>
         </div>
@@ -20,7 +23,8 @@
             </div>
         </div>
         <div class="w-[60%] mt-4 mx-auto">
-            <canvas id="myChart"></canvas>
+            <canvas v-show="showChart" id="myChart"></canvas>
+            <div v-show="!showChart" id="plot"></div>
         </div>
     </div>
 
@@ -32,19 +36,27 @@
                 return {
                     ...props,
                     current: 0,
-                    myChart: null
+                    myChart: null,
+                    showChart: true,
                 }
             },
             mounted() {
             },
             methods: {
+                plotGraph(info) {
+                    Plotly.newPlot('plot', info.data, info.layout);
+                },
                 changeCurrent(index){
                     this.current = index
                     let info = this.chartInfo[index]
-                    this.createChart(info, index==0)
+                    this.showChart = this.routes[index].isChart
+                    if (this.showChart){
+                        this.createChart(info, index==0)
+                    }else{
+                        this.plotGraph(info)
+                    }
                 },
                 getWord(tooltipItems){
-                    console.log(tooltipItems)
                     return tooltipItems.raw.word
                 },
                 createChart(info, resetLabels=false) {
@@ -52,15 +64,12 @@
 
                     let ctx = document.getElementById('myChart').getContext('2d')
                     if(resetLabels){
-                        info.options.plugins = {
-                            'tooltip': {
-                                'callbacks': {
-                                    'label': this.getWord
-                                }
+                        info.options.plugins.tooltip = {
+                            'callbacks': {
+                                'label': this.getWord
                             }
                         }
                     }
-                    console.log(info)
                     this.myChart = new Chart(ctx, info)
                 }
             },

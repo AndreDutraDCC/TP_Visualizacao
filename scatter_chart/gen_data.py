@@ -1,15 +1,20 @@
 import json
 import pandas as pd
 from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-def getData(languages, base='dirty'):
+def getData(languages, base='dirty', by_family=False):
     fonemasALL = []
-    fonemasLABELS = languages#['cs', 'en', 'de']
-    cores = ['green', 'blue', 'yellow', 'red', 'purple', 'crimson']  # Adicione mais mapeamentos conforme necessário
+    fonemasLABELS = languages
+    
+    with open('word_data/language_info.json', 'r') as file:
+        languageData = json.loads(file.read())
+
+
+    # cores = ['green', 'blue', 'yellow', 'red', 'purple', 'crimson']  # Adicione mais mapeamentos conforme necessário
     mapeamento_cores = {}  # Adicione mais mapeamentos conforme necessário
-    for i in range(len(fonemasLABELS)):
-        mapeamento_cores[fonemasLABELS[i]] = cores[i]
+    # for i in range(len(fonemasLABELS)):
+    #     mapeamento_cores[fonemasLABELS[i]] = cores[i]
 
     for lang_code in fonemasLABELS:
         with open('word_data/{}/{}.json'.format(base, lang_code), 'r') as file:
@@ -26,7 +31,7 @@ def getData(languages, base='dirty'):
 
     # print(fonemaList)
 
-    dataframe = {'word': [], 'phoneme': [], 'language': []}
+    dataframe = {'word': [], 'phoneme': [], 'language_key': [], 'language': [], 'family': []}
     for f in fonemaList:
         dataframe[f] = []
 
@@ -35,7 +40,9 @@ def getData(languages, base='dirty'):
         for word in fonemas:
             dataframe['word'].append(word)
             dataframe['phoneme'].append(fonemas[word])
-            dataframe['language'].append(fonemasLABELS[i])
+            dataframe['language_key'].append(fonemasLABELS[i])
+            dataframe['language'].append(languageData[fonemasLABELS[i]][0])
+            dataframe['family'].append(languageData[fonemasLABELS[i]][1])
             for f in fonemaList:
                 dataframe[f].append(fonemas[word].count(f))
 
@@ -47,10 +54,10 @@ def getData(languages, base='dirty'):
     # e as duas primeiras colunas são as colunas de identificação
 
     # Armazenar as duas primeiras colunas em uma nova variável
-    colunas_identificacao = df.iloc[:, 0:3]
+    colunas_identificacao = df.iloc[:, 0:5]
 
     # Excluir as duas primeiras colunas e a terceira coluna (categoria) do DataFrame original
-    dados = df.iloc[:, 3:]
+    dados = df.iloc[:, 5:]
 
     # Criar uma instância do objeto PCA
     pca = PCA(n_components=2)  # Defina o número de componentes desejado (2 para visualização em um gráfico)
@@ -65,11 +72,11 @@ def getData(languages, base='dirty'):
     dados_reduzidos = pd.concat([colunas_identificacao, dados_reduzidos], axis=1)
 
     legendas = []
-    for categoria in dados_reduzidos['language'].unique():
-        legendas.append(plt.scatter([], [], c=mapeamento_cores[categoria], label=categoria))
+    # for categoria in dados_reduzidos['language'].unique():
+    #     legendas.append(plt.scatter([], [], c=mapeamento_cores[categoria], label=categoria))
 
     # print({'data': dados_reduzidos, 'labels': fonemasLABELS, 'colors': cores})
-    return {'data': dados_reduzidos, 'labels': fonemasLABELS, 'colors': cores}
+    return {'data': dados_reduzidos, 'labels': fonemasLABELS, 'languageData': languageData}
 
     # Obter as cores correspondentes a cada categoria
     # cores = [mapeamento_cores[categoria] for categoria in colunas_identificacao['language']]
