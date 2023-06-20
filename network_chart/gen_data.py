@@ -1,11 +1,8 @@
-from fa2 import ForceAtlas2
 import networkx as nx
 
 import json
 import pandas as pd
 import numpy as np
-
-
 
 from seaborn import color_palette
 
@@ -13,36 +10,14 @@ all_languages = ['es','pt','fr','it','de','en','ru','sv','tr','hu','cs','hi','zh
 all_colors = color_palette('husl',14)
 colormap = dict(zip(all_languages, all_colors))
 
-def gen_layout_forceatlas(dist_matrix):
-    new_dist_matrix = dist_matrix.copy()
-    new_dist_matrix[new_dist_matrix == np.inf] = 0
-
-    forceatlas2 = ForceAtlas2(
-                                # Behavior alternatives
-                                outboundAttractionDistribution=True,  # Dissuade hubs
-                                linLogMode=False,  # NOT IMPLEMENTED
-                                adjustSizes=False,  # Prevent overlap (NOT IMPLEMENTED)
-                                edgeWeightInfluence=1.0,
-
-                                # Performance
-                                jitterTolerance=1.0,  # Tolerance
-                                barnesHutOptimize=True,
-                                barnesHutTheta=1.2,
-                                multiThreaded=False,  # NOT IMPLEMENTED
-
-                                # Tuning
-                                scalingRatio=2.0,
-                                strongGravityMode=False,
-                                gravity=1.0,
-
-                                # Log
-                                verbose=True)
-    return forceatlas2.forceatlas2(new_dist_matrix, np.random.rand(len(new_dist_matrix),2), iterations=100)
-
 def gen_layout_fruchterman_reingold(dist_matrix):
     graph = nx.from_numpy_array(dist_matrix)
     
-    layout_dict = nx.spring_layout(graph, iterations=30)
+    layout_dict = nx.spring_layout(graph,
+                                   pos={node: 10*np.random.rand(2) for node in graph.nodes},
+                                   fixed=[node for node in graph.nodes if not graph.edges(node)],
+                                   k=10,
+                                   iterations=60)
 
     layout_data = [layout_dict[i] for i in range(len(layout_dict))]
 
@@ -71,8 +46,6 @@ def vectorize(phonem_word):
 
 
 def getData(languages, base='all', max_dist = np.inf):
-    global colormap
-
     data = {
         'language': [],
         'vector':   []
@@ -127,4 +100,4 @@ def getData(languages, base='all', max_dist = np.inf):
         edge_data[(i,j)] = [[x[i], x[j]], [y[i], y[j]]]
 
     
-    return {'data': df, 'edge_data': edge_data, 'labels': languages, 'colors': [colormap[language] for language in languages]}
+    return {'data': df, 'edge_data': edge_data, 'labels': languages}

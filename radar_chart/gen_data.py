@@ -1,48 +1,46 @@
+import numpy as np
+import pandas as pd
 import json
-from collections import Counter
-import sys
 
-def getData(languages, base='dirty'):
-    # Obtém o nome do arquivo a partir do argumento
-    fonemasALL = []
-    fonemasLABELS = languages
-    # Abre o arquivo JSON
-    for lang_code in fonemasLABELS:
-        with open('word_data/{}/{}.json'.format(base, lang_code), 'r') as file:
-            dados = file.read()
-        fonemasALL.append(json.loads(dados))
+def vectorize(phonem_word):
+    phonems = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'æ', 'ç', 'ð', 'ø', 'ŋ', 'œ', 'ɐ', 'ɑ', 'ɒ', 'ɔ', 'ɕ', 'ɖ', 'ə', 'ɚ', 'ɛ', 'ɜ', 'ɟ', 'ɡ', 'ɣ', 'ɨ', 'ɪ', 'ɫ', 'ɭ', 'ɯ', 'ɲ', 'ɳ', 'ɵ', 'ɹ', 'ɻ', 'ɾ', 'ʀ', 'ʁ', 'ʂ', 'ʃ', 'ʈ', 'ʉ', 'ʊ', 'ʋ', 'ʌ', 'ʎ', 'ʐ', 'ʑ', 'ʒ']
+    phonem_counter = {phonem:0 for phonem in phonems}
 
-    # Cria um único string com todos os fonemas
-    data = []
-    for lang in fonemasALL:
-        fonemas = ''.join(lang.values())
-
-        # Conta a ocorrência de cada fonema
-        contador_fonemas = Counter(fonemas)
-
-        # Converte o resultado em um array de tuplas (fonema, quantidade)
-        resultado = [(fonema, quantidade) for fonema, quantidade in contador_fonemas.items()]
-        resultado_ordenado = sorted(resultado, key=lambda x: x[1], reverse=True)
-        # Exibe o resultado
-
-        # Cria um novo dicionário apenas com os primeiros registros
-        dicionario_registros = {fonema: quantidade for fonema, quantidade in resultado_ordenado}
-        data.append(dicionario_registros)
+    for phonem in phonem_word:
+        if phonem in phonems:
+            phonem_counter[phonem] += 1
     
-    #Verificar o fonema mais frequente em cada língua e verificar a frequencia do mesmo fonema nas outras línguas contidas em data
-    fonemas_mais_frequentes = []
-    for lang in data:
-        fonemas_mais_frequentes.append(list(lang.keys())[0])
-    dados_finais = []
-
-    for fonema in fonemas_mais_frequentes:
-        ocorrencias = [lang.get(fonema, 0) for lang in data]
-        dados_finais.append([fonema] + ocorrencias)
+    return np.array([phonem_counter[phonem] for phonem in phonems])
 
 
-    data = dados_finais
 
+def getData(languages, base='all', max_dist = np.inf):
+    data = {
+        'language': [],
+        'vector':   []
+        }
 
-    # Define o nome do arquivo de saída
-    cores = ['green', 'blue', 'yellow', 'red', 'purple', 'crimson']
-    return {'data': data, 'labels': fonemasLABELS, 'colors': cores}
+    direc = base if base != 'all' else 'dirty'
+    
+    for language in languages:
+        with open('word_data/{}/{}.json'.format(direc, language), 'r') as f:
+            lang_data = json.load(f)
+
+        for phonem_word in lang_data.values():
+            data['language'].append(language)
+            data['vector'].append(vectorize(phonem_word))
+
+            if base == 'all':
+                with open('word_data/{}/{}.json'.format('clean', language), 'r') as f:
+                    lang_data = json.load(f)
+
+                for phonem_word in lang_data.values():
+                    data['language'].append(language)
+                    data['vector'].append(vectorize(phonem_word))
+    
+    df = pd.DataFrame(data)
+    df = df.groupby('language').mean()
+    
+    return {'data': df,
+            'phonems':['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'æ', 'ç', 'ð', 'ø', 'ŋ', 'œ', 'ɐ', 'ɑ', 'ɒ', 'ɔ', 'ɕ', 'ɖ', 'ə', 'ɚ', 'ɛ', 'ɜ', 'ɟ', 'ɡ', 'ɣ', 'ɨ', 'ɪ', 'ɫ', 'ɭ', 'ɯ', 'ɲ', 'ɳ', 'ɵ', 'ɹ', 'ɻ', 'ɾ', 'ʀ', 'ʁ', 'ʂ', 'ʃ', 'ʈ', 'ʉ', 'ʊ', 'ʋ', 'ʌ', 'ʎ', 'ʐ', 'ʑ', 'ʒ'],
+            'labels': languages}
