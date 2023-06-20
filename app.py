@@ -26,7 +26,7 @@ def index():
     routes = [
         {'link': "zero", 'title': "Pareto", 'key': 0, 'isChart':True},
         {'link': "primeira", 'title': "Scatter", 'key': 1, 'isChart':True},
-        {'link': 'segunda', 'title': "Radar", 'key': 2, 'isChart':False},
+        {'link': 'segunda', 'title': "Star Plot", 'key': 2, 'isChart':False},
         {'link': "terceira", 'title': "Network", 'key': 3, 'isChart':False}
     ] # Page Names
 
@@ -264,6 +264,7 @@ def getChartInfo3():
 
         plots.append(go.Scatter(x=[row['x']],
                                 y=[row['y']],
+                                name=lang_info[lang][0],
                                 mode='markers',
                                 marker={'color':colormap[lang],
                                         'size': 25},
