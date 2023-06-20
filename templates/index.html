@@ -47,13 +47,15 @@
                     Plotly.newPlot('plot', info.data, info.layout);
                 },
                 changeCurrent(index){
+                    this.showChart = this.routes[index].isChart
                     this.current = index
                     let info = this.chartInfo[index]
-                    this.showChart = this.routes[index].isChart
                     if (this.showChart){
                         this.createChart(info, index==0)
                     }else{
-                        this.plotGraph(info)
+                        setTimeout(() => {
+                            this.plotGraph(info)
+                        }, 200)
                     }
                 },
                 getWord(tooltipItems){
