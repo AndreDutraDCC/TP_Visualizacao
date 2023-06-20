@@ -23,8 +23,8 @@ app = Flask(__name__)
 def index():
     routes = [
         {'link': "primeira", 'title': "Scatter", 'key': 0, 'isChart':True},
-        {'link': 'segunda', 'title': "Radar", 'key': 1, 'isChart':False},
-        {'link': "terceira", 'title': "Bubble", 'key': 2, 'isChart':False}
+        {'link': 'segunda', 'title': "Star Plot", 'key': 1, 'isChart':False},
+        {'link': "terceira", 'title': "Graph", 'key': 2, 'isChart':False}
     ] # Page Names
 
     # Get visualizations info
@@ -132,7 +132,7 @@ def getChartInfo2():
             if k == 14: break
         if k == 14: break
     
-    fig.update_layout(title = 'Meu título', xaxis={'title':'aaaaaa'})
+    fig.update_layout(title = 'Visualização das distribuições fonéticas de cada língua')
 
     for k, language in enumerate(languages):
         fig.update_layout({'polar{}'.format(k+1 if k!=0 else ''): {
